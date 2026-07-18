@@ -1,0 +1,26 @@
+{
+  "project": "<project_slug>",
+  "episode": "EP01",
+  "aspect_ratio_assets": "9:16",
+  "image_model": "nano_banana_2",
+  "generation_pattern": { "count": 2, "note": "generate_image count:2 — 검증된 효율 패턴. full UUID 필수." },
+  "assets": [
+    {
+      "handle": "@CharacterName",
+      "type": "character",
+      "role": "<극중 역할 — 한글 설명>",
+      "status": "pending",
+      "prompt": "Full-body character reference, <age/gender>, <hair>, <eyes>, <skin/build>, standing straight facing camera, neutral expression. <He/She> wears <costume in concrete detail>. Plain seamless light-grey studio background, even soft lighting, photorealistic, 8K detail."
+    },
+    {
+      "handle": "@LocationName",
+      "type": "location",
+      "role": "<공간 용도 — 어떤 비트/컷에 쓰이는지>",
+      "status": "pending",
+      "prompt": "Vertical architectural plate, <space description>. Empty of people. <lighting with explicit color temperature matching the look bible>, photorealistic, 8K detail, vertical 9:16 composition with <key object> at upper third."
+    }
+  ],
+  "phase2_assets_deferred": [
+    { "handle": "@DeferredAsset", "for": "<어느 에피소드/장면용인지>" }
+  ]
+}
