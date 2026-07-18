@@ -1,0 +1,375 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SIXTH_WIFE ep01 — Pipeline Board</title><style>
+body{font-family:'Segoe UI',Pretendard,sans-serif;background:#141118;color:#e8e2ee;margin:0;padding:24px}
+h1{font-size:22px;color:#e9c46a} h2{font-size:16px;color:#c9a0dc;border-bottom:1px solid #3a2f47;padding-bottom:6px;margin-top:36px}
+.meta{color:#9a8fb0;font-size:13px;line-height:1.7}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.card{background:#1e1826;border:1px solid #3a2f47;border-radius:10px;padding:12px}
+.hd{display:flex;justify-content:space-between;margin-bottom:6px}
+.tag{color:#e9c46a;font-weight:700;font-family:monospace} .typ{color:#7a6f90;font-size:11px}
+.role{font-size:13px;margin-bottom:8px}
+details summary{cursor:pointer;color:#8ecae6;font-size:12px}
+pre{white-space:pre-wrap;background:#0f0c14;border-radius:8px;padding:10px;font-size:11px;color:#cfc7dd;line-height:1.5}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+th{text-align:left;color:#c9a0dc;border-bottom:1px solid #3a2f47;padding:8px 6px}
+td{padding:8px 6px;border-bottom:1px solid #251d30;vertical-align:top}
+.cut{color:#e9c46a;font-weight:700;font-family:monospace} .au{color:#9a8fb0;font-style:italic}
+tr.pr td{border-bottom:1px solid #3a2f47;background:#181221}
+.lock{background:#231a2e;border-left:3px solid #e76f51;padding:10px 14px;border-radius:6px;font-size:13px;line-height:1.7}
+</style></head><body><h1>SIXTH_WIFE — ep01 「다섯 개의 열쇠 / The Five Keys」 · AI 영상 자동화 파이프라인 보드</h1><p class="meta">9:16 세로 · 타깃 125초 · 이미지 nano_banana_2 / 영상 seedance_2_0<br>스크린 방향 락: Elara = frame RIGHT, looks LEFT · Duke_Staff = frame LEFT, look RIGHT · EP01 전체 불변. OTS 왕복 시에도 유지. · 화면 내 텍스트 생성 금지</p><div class="lock"><b>실행 전제:</b> 힉스필드 MCP 커넥터를 이 대화에서 켠 뒤 — Phase A(에셋 6종 × count 2) 발주 → 핸들당 1장 픽 → Phase B(9클립 순차 발주). 상세는 RUN_MANIFEST.json.</div><h2>2단계 — 에셋 매니페스트 (6종)</h2><div class="grid"><div class="card"><div class="hd"><span class="tag">@Elara</span><span class="typ">character</span></div><div class="role">여주 / 여섯 번째 부인 엘라라 — 몰락 남작가의 딸</div><details><summary>generation prompt</summary><pre>Full-body character reference, young woman in her early 20s, quietly intelligent presence, chestnut-auburn hair in loose waves falling past her shoulders, clear green eyes, fair skin with light freckles across the nose, standing straight facing camera, neutral expression with a steady observant gaze. She wears a floor-length deep-emerald velvet gown with a high black lace collar, fitted long sleeves with black lace cuffs, and a small antique silver locket on a thin chain. Plain seamless light-grey studio background, even soft lighting, photorealistic, 8K detail, velvet nap and lace texture visible.</pre></details></div><div class="card"><div class="hd"><span class="tag">@DukeKael</span><span class="typ">character</span></div><div class="role">공작 카엘 — 다섯 부인을 잃은 남주</div><details><summary>generation prompt</summary><pre>Full-body character reference, man in his mid-30s, tall and severe aristocratic build, black hair worn slightly long and swept back, pale grey-blue eyes, a faint old scar through the left eyebrow, guarded unreadable expression. He wears an all-black brocade frock coat with silver fastenings, a black cravat with a silver pin, black gloves, and a signet ring with a raven crest over the glove. Standing straight facing camera, hands at his sides. Plain seamless light-grey studio background, even soft lighting, photorealistic, 8K detail.</pre></details></div><div class="card"><div class="hd"><span class="tag">@Marguerite</span><span class="typ">character</span></div><div class="role">하녀장 마르그리트 — 열쇠와 금기를 전달</div><details><summary>generation prompt</summary><pre>Full-body character reference, woman in her late 50s, upright rigid posture, steel-grey hair in a tight low bun, deep-set watchful dark eyes, thin pressed lips. She wears a plain black high-collared housekeeper's dress with a row of small jet buttons, a silver chatelaine at the waist, and white cuffs. Standing straight facing camera, stern composed expression. Plain seamless light-grey studio background, even soft lighting, photorealistic, 8K detail.</pre></details></div><div class="card"><div class="hd"><span class="tag">@FiveKeys</span><span class="typ">prop</span></div><div class="role">다섯 개의 열쇠 꾸러미 — 금기의 상징 (ECU 인서트용)</div><details><summary>generation prompt</summary><pre>Product-style reference of a single prop: five ornate antique iron keys of slightly different lengths on a heavy black iron ring, each key bow cast in a different worn heraldic shape, dark oxidized metal with faint gold inlay traces, laid flat and fanned apart. Plain seamless light-grey studio background, even soft lighting, photorealistic, 8K macro detail, fine rust pitting and tool marks visible.</pre></details></div><div class="card"><div class="hd"><span class="tag">@GrandFoyer</span><span class="typ">location</span></div><div class="role">공작성 대현관홀 (도착·서약)</div><details><summary>generation prompt</summary><pre>Vertical architectural plate, interior of a gothic manor great hall at dusk. A double sweeping staircase of dark oak with worn crimson runners, a massive wrought-iron chandelier holding dozens of lit candles, tall leaded windows with the last cold daylight, ancestral portraits in tarnished gold frames along the walls, a black-and-white marble checkered floor. Empty of people. Warm candlelight around 3000K against fading cool window light, faint dust in the air, photorealistic, 8K detail, vertical 9:16 composition with the chandelier at upper third.</pre></details></div><div class="card"><div class="hd"><span class="tag">@WestCorridor</span><span class="typ">location</span></div><div class="role">서관 복도 — 다섯 개의 잠긴 문 (금기 구역·메인 시퀀스)</div><details><summary>generation prompt</summary><pre>Vertical architectural plate, a long stone corridor in a gothic manor at night. Along the left wall, five identical heavy oak doors banded with black iron, each with an ornate iron lock plate, evenly spaced and receding into darkness. Along the right wall, tall mullioned windows letting in cold blue moonlight in slanted shafts, and sparse wall sconces with single guttering candles between the windows. Bare stone floor with a narrow dark runner carpet. Empty of people. Mixed lighting, 4300K moonlight with warm candle spots, deep shadows between doors, photorealistic, 8K detail, vertical 9:16 composition with the corridor vanishing point at upper third.</pre></details></div></div><h2>4·5단계 — 컷리스트 + 클립 프롬프트 (9클립 · 합계 97초)</h2><table><tr><th>컷</th><th>비트</th><th>길이</th><th>사이즈</th><th>카메라</th><th>레퍼런스</th><th>오디오</th></tr><tr><td class="cut">C01</td><td>콜드 오픈</td><td>10s</td><td>WS→MCU push-in</td><td>slow push-in through open doors toward her</td><td>@Elara @GrandFoyer</td><td class="au">VO: Today, I became the Duke's sixth wife.</td></tr><tr class="pr"><td colspan="7"><details><summary>clip prompt — clip01_arrival.txt</summary><pre>SCENE CONTEXT
+A young bride arrives at her new home: the great hall of a vast gothic manor at dusk. She has just been married into the house of a duke whose five previous wives are all dead. She stands alone just inside the entrance, a hooded traveling cloak over her gown, taking in the hall for the first time.
+
+ACTIVE REFERENCES
+@Elara: early-20s woman, chestnut-auburn loose waves, green eyes, deep-emerald velvet gown with black lace collar and cuffs, small silver locket. 100% matches the reference.
+@GrandFoyer: gothic great hall, double oak staircase with crimson runners, wrought-iron candle chandelier, ancestral portraits, checkered marble floor. 100% matches the reference.
+
+LOCATION MAP
+Foreground: checkered marble floor and the hem of her emerald gown beneath a charcoal hooded cloak. Midground: @Elara standing on the right side of frame, facing left and inward toward the hall. Background: the double staircase and the candle chandelier receding upward into shadow, portraits along the walls. Camera inside the hall, looking back toward her against the tall doorway. Light from the chandelier above and cold dusk light from the leaded windows behind her.
+
+FIRST FRAME / BLOCKING
+Frame opens wide on the hall with @Elara small on the right third, framed by the tall open doorway, vertical composition, chandelier at upper third.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+35° compression at the start easing tighter as the camera approaches, shallow depth of field by the end, candle flames dissolving into warm bokeh.
+
+CAMERA
+Starts wide at chest height eight meters from her, pushes in slowly and steadily along the checkered floor, ending in a medium close-up of her face on the right third of frame. The push completes in the final two seconds.
+
+ACTION
+She pulls back her hood with both hands in the first third of the shot, revealing her face and hair. She then stands still, only her eyes moving as they travel up the staircase and across the portraits, ending looking left into the depth of the hall.
+
+PERFORMANCE
+Composed but wary; a bride who chose this and knows what it costs. A small swallow, steady green eyes, no smile. Visible fine skin texture, no drift in facial identity.
+
+LIGHTING
+Warm candle key at 3000K from the chandelier above, cool fading dusk rim from the windows behind her catching the edge of her cloak and hair.
+
+AUDIO
+Female voice-over, low and even: "Today, I became the Duke's sixth wife." Cavernous hall ambience, a heavy door closing somewhere behind her.
+
+STYLE
+Photoreal, high-end gothic romance mystery, fine film grain, deep desaturated palette with emerald and antique gold.
+
+POSITIVE LOCKS
+Her appearance matches @Elara exactly in every frame. She stays on the right side of frame, looking left. The hall stays empty of other people. The screen stays free of any text or captions.
+</pre></details></td></tr><tr><td class="cut">C02</td><td>배경 압축 — 서약</td><td>8s</td><td>ECU hands → CU faces</td><td>insert on ring, tilt up to their faces</td><td>@Elara @DukeKael @GrandFoyer</td><td class="au">VO: The five before me are all dead.</td></tr><tr class="pr"><td colspan="7"><details><summary>clip prompt — clip02_vows.txt</summary><pre>SCENE CONTEXT
+A compressed memory of the wedding, earlier the same day, in the manor's great hall. The duke slides a ring onto the bride's finger. The vow is cold, transactional, witnessed by no family — a contract, not a celebration.
+
+ACTIVE REFERENCES
+@Elara: early-20s woman, chestnut-auburn loose waves, green eyes, deep-emerald velvet gown with black lace collar, silver locket. 100% matches the reference.
+@DukeKael: mid-30s man, black swept-back hair, pale grey-blue eyes, faint scar through the left eyebrow, all-black brocade coat with silver fastenings, black gloves, raven signet ring. 100% matches the reference.
+@GrandFoyer: gothic great hall, candle chandelier, checkered marble floor. 100% matches the reference.
+
+LOCATION MAP
+Foreground: their two hands meeting at the center of frame — his black-gloved hand sliding a thin gold band onto her bare finger. Midground: their bodies facing each other, @DukeKael on the left of frame, @Elara on the right. Background: the base of the double staircase softly out of focus, candlelight. Camera at waist height between and slightly below their hands. Light from the chandelier above.
+
+FIRST FRAME / BLOCKING
+Frame opens on an extreme close-up of the two hands and the ring, centered, vertical composition, everything else in soft darkness.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+50° macro compression on the hands, opening to 35° as the camera tilts up. Very shallow depth of field throughout.
+
+CAMERA
+Holds on the hands for the first half as the ring slides on, then tilts up smoothly and pulls back slightly to frame both faces in profile — his on the left, hers on the right — ending in a tight two-shot close-up.
+
+ACTION
+His gloved hand slides the gold band fully onto her finger, deliberate and unhurried, then releases her hand and withdraws. As the camera rises, neither face turns to the other; both look straight ahead past each other.
+
+PERFORMANCE
+@DukeKael: unreadable, jaw set, eyes cold and distant. @Elara: chin level, eyes fixed forward, one slow controlled blink as the ring seats. No drift in facial identity for either.
+
+LIGHTING
+Warm 3000K candle key from above, deep shadow in the background, a thin cool edge light separating their profiles from the dark.
+
+AUDIO
+Female voice-over, quiet and flat: "The five before me are all dead." Under it, the faint echo of an officiant's murmur and a single candle sputter.
+
+STYLE
+Photoreal, high-end gothic romance mystery, fine film grain, deep desaturated palette with emerald and antique gold.
+
+POSITIVE LOCKS
+Both faces match their references exactly in every frame. He stays on the left side of frame, she stays on the right. The ring stays on her finger once placed. The screen stays free of any text or captions.
+</pre></details></td></tr><tr><td class="cut">C03</td><td>금기 부여</td><td>10s</td><td>MS two-shot → ECU keys</td><td>static two-shot, push to keys passing between hands</td><td>@Marguerite @Elara @FiveKeys</td><td class="au">Marguerite: Keep them close, my lady — and never open the west wing doors.</td></tr><tr class="pr"><td colspan="7"><details><summary>clip prompt — clip03_keys.txt</summary><pre>SCENE CONTEXT
+Evening of the wedding day, in the great hall at the foot of the staircase. The housekeeper formally hands the new duchess the household keys — five ornate keys on an iron ring — and delivers the house's one rule as a warning.
+
+ACTIVE REFERENCES
+@Marguerite: late-50s housekeeper, steel-grey tight bun, black high-collared dress with jet buttons, silver chatelaine, white cuffs. 100% matches the reference.
+@Elara: early-20s woman, chestnut-auburn loose waves, green eyes, deep-emerald velvet gown with black lace collar, silver locket. 100% matches the reference.
+@FiveKeys: five ornate antique iron keys of different lengths on a heavy black iron ring, dark oxidized metal with faint gold inlay. 100% matches the reference.
+
+LOCATION MAP
+Foreground: nothing — clean space to the checkered floor. Midground: @Marguerite standing on the left of frame facing right, @Elara on the right of frame facing left, an arm's length apart at the foot of the dark oak staircase. Background: the staircase and candle sconces softly defocused. Camera at chest height, square to the two of them. Light from a candle sconce high left and the chandelier's glow.
+
+FIRST FRAME / BLOCKING
+Frame opens on a balanced medium two-shot, @Marguerite left and @Elara right, the iron key ring already lifted in the housekeeper's two hands between them, vertical composition with both faces in the upper third.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+35° compression easing to 50° as the camera pushes to the keys. Shallow depth of field, faces soft when the keys are sharp.
+
+CAMERA
+Holds the two-shot for the first half of the line, then pushes in slowly and re-racks focus to the keys as they pass between hands, ending in an extreme close-up of @FiveKeys resting in Elara's open palms.
+
+ACTION
+@Marguerite extends the key ring with both hands, a formal practiced gesture. @Elara receives it with both palms up. The keys settle into her hands with real weight; her fingers close slowly around the ring.
+
+PERFORMANCE
+@Marguerite: stern, quiet urgency under the formality, eyes fixed on Elara through the whole line. @Elara: attentive, a flicker of a question in her eyes at the word "never". No drift in facial identity.
+
+LIGHTING
+Warm 3000K candle key from high left on Marguerite's face, the same warmth catching the gold inlay of the keys; cool ambient fill from the hall behind.
+
+AUDIO
+Older female voice, low and measured: "Keep them close, my lady — and never open the west wing doors." Faint metallic chime of the keys as they change hands.
+
+STYLE
+Photoreal, high-end gothic romance mystery, fine film grain, deep desaturated palette with emerald and antique gold.
+
+POSITIVE LOCKS
+Both women match their references exactly in every frame. Marguerite stays on the left side of frame, Elara stays on the right. The key ring holds exactly five keys in every frame. The screen stays free of any text or captions.
+</pre></details></td></tr><tr><td class="cut">C04</td><td>첫 위반 — 복도 트래킹</td><td>15s</td><td>FS lateral tracking</td><td>slow lateral track following her past the five doors</td><td>@Elara @WestCorridor @FiveKeys</td><td class="au">VO: Five doors, five dead wives — and my keys fit every lock.</td></tr><tr class="pr"><td colspan="7"><details><summary>clip prompt — clip04_corridor.txt</summary><pre>SCENE CONTEXT
+That night. The new duchess has left her rooms and entered the forbidden west wing, the five keys in her hand. She walks the length of a long stone corridor past five identical locked doors, moonlight cutting across her path.
+
+ACTIVE REFERENCES
+@Elara: early-20s woman, chestnut-auburn loose waves, green eyes, deep-emerald velvet gown with black lace collar, silver locket. 100% matches the reference.
+@WestCorridor: long gothic stone corridor at night, five iron-banded oak doors along the left wall with ornate lock plates, mullioned windows with cold moonlight on the right, sparse candle sconces. 100% matches the reference.
+@FiveKeys: five ornate antique iron keys on a heavy black iron ring. 100% matches the reference.
+
+LOCATION MAP
+Foreground: slanted shafts of blue moonlight on the stone floor crossing her path. Midground: @Elara walking, the five doors passing behind her on the left wall of frame. Background: the corridor's vanishing point in darkness at upper third. Camera tracking laterally alongside her from the window side, at chest height. Light from the moonlit windows behind camera right and guttering sconce candles between the doors.
+
+FIRST FRAME / BLOCKING
+Frame opens on a full shot: @Elara on the right third of frame beside the first door, holding a single candlestick in one hand and the key ring in the other, vertical composition.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+35° compression throughout, no drift mid-shot. Moderate depth of field so the receding doors stay legible; sconce flames render as soft warm points.
+
+CAMERA
+Tracks laterally right-to-left at her walking pace, keeping her on the right third of frame while the five doors slide past on the left, slowing to a stop with her as she reaches the second-to-last door.
+
+ACTION
+She walks slowly and quietly, bare footsteps deliberate, candle flame trembling with her pace. Her head turns to each door as it passes. At the end she stops, and her hand with the key ring lifts slightly as she faces the door.
+
+PERFORMANCE
+Controlled fear overridden by resolve; breath visible in the cold air, eyes flicking from lock to lock. No drift in facial identity.
+
+LIGHTING
+Cold 4300K moonlight key from the windows in slanted shafts, warm candle accents from the sconces and her handheld candle underlighting her face softly.
+
+AUDIO
+Female voice-over, hushed: "Five doors, five dead wives — and my keys fit every lock." Under it, slow bare footsteps on stone, wind against the windows, keys faintly chiming.
+
+STYLE
+Photoreal, high-end gothic romance mystery, fine film grain, deep desaturated palette, cold blue with warm candle accents.
+
+POSITIVE LOCKS
+Her appearance matches @Elara exactly in every frame. She stays on the right side of frame moving right-to-left, the doors stay on the left wall of frame. Exactly five doors line the corridor. The corridor stays empty of other people. The screen stays free of any text or captions.
+</pre></details></td></tr><tr><td class="cut">C05</td><td>첫 문 — 귀 대기</td><td>10s</td><td>MCU→ECU ear on door</td><td>slow push-in as she leans to the door</td><td>@Elara @WestCorridor</td><td class="au">Whisper behind the door, faint and female: Run.</td></tr><tr class="pr"><td colspan="7"><details><summary>clip prompt — clip05_listen.txt</summary><pre>SCENE CONTEXT
+The duchess stands before the first locked door in the forbidden corridor. Instead of using a key, she leans in and presses her ear against the cold oak — and hears something impossible from inside.
+
+ACTIVE REFERENCES
+@Elara: early-20s woman, chestnut-auburn loose waves, green eyes, deep-emerald velvet gown with black lace collar, silver locket. 100% matches the reference.
+@WestCorridor: gothic stone corridor at night, iron-banded oak door with an ornate iron lock plate, moonlight from mullioned windows, candle sconces. 100% matches the reference.
+
+LOCATION MAP
+Foreground: the iron-banded oak door filling the left half of frame, its lock plate at center-left. Midground: @Elara on the right of frame, face turned left toward the door. Background: a sliver of the moonlit corridor falling away in soft focus. Camera at head height, tight on the door and her. Light from a sconce candle above frame right and cold moonlight edging from behind her.
+
+FIRST FRAME / BLOCKING
+Frame opens on a medium close-up: her profile on the right third, the door's dark oak grain on the left, her candlestick lowered out of frame, vertical composition with her face at upper third.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+50° portrait compression, very shallow depth of field; the door grain sharp where her ear meets it, corridor dissolved to darkness.
+
+CAMERA
+Pushes in very slowly from medium close-up to extreme close-up as she leans in, ending framed on her ear and cheek against the wood and her one visible eye, holding perfectly still for the final seconds.
+
+ACTION
+She hesitates, then leans left and presses her ear flat against the door, one palm resting on the iron band. Her breathing stills completely. At the whisper, her visible eye snaps wide open.
+
+PERFORMANCE
+Held breath, parted lips, the transition from straining to hear into pure shock in the final second. Candle catch-light in her eye. No drift in facial identity.
+
+LIGHTING
+Warm candle key from upper right at 3000K on her cheek, cold 4300K moonlight rim tracing her hair and the door's iron band, deep shadow inside the door's recesses.
+
+AUDIO
+Near silence: her held breath, wood creak under her palm — then a faint female whisper from behind the door: "Run." No music.
+
+STYLE
+Photoreal, high-end gothic romance mystery, fine film grain, deep desaturated palette, cold blue with warm candle accents.
+
+POSITIVE LOCKS
+Her appearance matches @Elara exactly in every frame. The door stays on the left side of frame, she stays on the right. The door stays closed in every frame. The corridor stays empty of other people. The screen stays free of any text or captions.
+</pre></details></td></tr><tr><td class="cut">C06</td><td>공작 등장</td><td>12s</td><td>WS silhouette → MS</td><td>she turns; hold on his silhouette down the corridor, slow advance</td><td>@Elara @DukeKael @WestCorridor</td><td class="au">Kael: You were told not to come here.</td></tr><tr class="pr"><td colspan="7"><details><summary>clip prompt — clip06_caught.txt</summary><pre>SCENE CONTEXT
+Caught. The duchess spins from the door — and at the far end of the forbidden corridor stands the duke, a motionless silhouette against the moonlight, watching her. He begins to walk toward her.
+
+ACTIVE REFERENCES
+@Elara: early-20s woman, chestnut-auburn loose waves, green eyes, deep-emerald velvet gown with black lace collar, silver locket. 100% matches the reference.
+@DukeKael: mid-30s man, black swept-back hair, pale grey-blue eyes, faint scar through the left eyebrow, all-black brocade coat with silver fastenings, black gloves. 100% matches the reference.
+@WestCorridor: long gothic stone corridor at night, five iron-banded oak doors on the left, moonlit mullioned windows on the right, candle sconces. 100% matches the reference.
+
+LOCATION MAP
+Foreground: @Elara's shoulder and turned head on the right of frame, close to camera, softly lit by her candle. Midground: empty moonlit corridor, shafts of blue light on stone. Background: @DukeKael as a tall black silhouette on the left of frame at the corridor's far end, edged by moonlight. Camera just behind and beside her shoulder, looking down the corridor. Light from the windows on the right and her candle low in frame.
+
+FIRST FRAME / BLOCKING
+Frame opens over her shoulder: she is mid-turn on the right third, and his distant silhouette is already standing motionless on the left third at the vanishing point, vertical composition.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+35° compression, deep enough focus to keep his silhouette legible while her shoulder stays soft, tightening focus onto him as he advances.
+
+CAMERA
+Holds nearly static behind her shoulder; a slow creeping push of a few centimeters forward through the shot, letting his advance do the work. His figure grows from silhouette to a readable medium shot by the final second.
+
+ACTION
+She freezes mid-turn, candle flame shuddering once. He walks toward camera down the corridor, unhurried, bootfalls even, his face coming into candle range only in the last step, moonlight bars sliding across his black coat.
+
+PERFORMANCE
+@Elara: caught breath, shoulders rigid, eyes fixed left on him. @DukeKael: expression emerging from shadow — not anger, something colder and quieter. No drift in facial identity for either.
+
+LIGHTING
+Cold 4300K moonlight shafts as the dominant key, rim-lighting his silhouette; warm candle glow low frame right touching her jaw and shoulder.
+
+AUDIO
+Male voice, low and level, closer with each word: "You were told not to come here." Even bootfalls on stone under the line, wind pressing the windows.
+
+STYLE
+Photoreal, high-end gothic romance mystery, fine film grain, deep desaturated palette, cold blue with warm candle accents.
+
+POSITIVE LOCKS
+Both match their references exactly in every frame. He stays on the left side of frame advancing right-ward in gaze, she stays on the right side of frame looking left. All five doors stay closed. The screen stays free of any text or captions.
+</pre></details></td></tr><tr><td class="cut">C07</td><td>대치 문답</td><td>15s</td><td>MCU OTS 왕복</td><td>locked OTS pair, eye-level on Elara, subtle low on Kael</td><td>@Elara @DukeKael @WestCorridor</td><td class="au">E: How did your wives die, my lord? / K: ...Curiosity killed them.</td></tr><tr class="pr"><td colspan="7"><details><summary>clip prompt — clip07_question.txt</summary><pre>SCENE CONTEXT
+Face to face in the forbidden corridor at night. The duke has caught his new wife at the first locked door. Instead of apologizing, she asks the one question no one in this house dares to ask.
+
+ACTIVE REFERENCES
+@Elara: early-20s woman, chestnut-auburn loose waves, green eyes, deep-emerald velvet gown with black lace collar, silver locket. 100% matches the reference.
+@DukeKael: mid-30s man, black swept-back hair, pale grey-blue eyes, faint scar through the left eyebrow, all-black brocade coat with silver fastenings, black gloves. 100% matches the reference.
+@WestCorridor: gothic stone corridor at night, iron-banded oak doors, moonlit mullioned windows, candle sconces. 100% matches the reference.
+
+LOCATION MAP
+Foreground and midground alternate between two over-the-shoulder setups an arm's length apart: @DukeKael on the left of frame looking right, @Elara on the right of frame looking left, the first locked door soft behind him. Background: moonlit corridor depth in soft focus. Camera trades between behind-her-shoulder and behind-his-shoulder at head height. Light from a sconce candle above between them and moonlight from the windows.
+
+FIRST FRAME / BLOCKING
+Frame opens over his left shoulder onto her face: @Elara sharp on the right third looking left up at him, his dark shoulder soft on the left edge, vertical composition, her face at upper third.
+
+FORMAT MODE
+Two fixed over-the-shoulder setups alternating with the dialogue — hers first, then his — no other angles, no camera movement within each setup.
+
+OPTICS
+50° portrait compression on both setups, very shallow depth of field, matching eyeline height; camera eye-level on her setup, a few degrees low on his.
+
+CAMERA
+Locked OTS pair. Setup A (over his shoulder onto her) holds through her question. Setup B (over her shoulder onto him) holds through his pause and answer, with a barely perceptible push-in during his silence.
+
+ACTION
+She keeps her chin raised through her question, not stepping back. He looks down at her without moving for a long beat, one gloved hand flexing once at his side, then answers.
+
+PERFORMANCE
+@Elara: steady, quietly defiant, pulse visible at her throat, eyes locked on his. @DukeKael: unreadable pause, then the answer delivered soft and flat, a warning worn as calm. Candle catch-lights in both sets of eyes. No drift in facial identity.
+
+LIGHTING
+Warm 3000K sconce candle key from above between them modeling both faces, cold 4300K moonlight rim separating each from the dark corridor behind.
+
+AUDIO
+Her voice, low and clear: "How did your wives die, my lord?" A held silence, cloth shifting — then his voice, quieter: "Curiosity killed them." Wind under the eaves throughout.
+
+STYLE
+Photoreal, high-end gothic romance mystery, fine film grain, deep desaturated palette, cold blue with warm candle accents.
+
+POSITIVE LOCKS
+Both match their references exactly in every frame. He stays on the left side of frame looking right, she stays on the right side of frame looking left, in both setups. The door behind him stays closed. The screen stays free of any text or captions.
+</pre></details></td></tr><tr><td class="cut">C08</td><td>클리프행어</td><td>12s</td><td>CU Elara → ECU door</td><td>hold on her face, whip focus to the door as knocking starts</td><td>@Elara @DukeKael @WestCorridor</td><td class="au">Elara: Then I will die knowing. — then three slow knocks from inside the door.</td></tr><tr class="pr"><td colspan="7"><details><summary>clip prompt — clip08_knock.txt</summary><pre>SCENE CONTEXT
+The cliffhanger. The duchess answers the duke's veiled threat without flinching — and before he can respond, three slow knocks sound from inside the locked door beside them. Both freeze.
+
+ACTIVE REFERENCES
+@Elara: early-20s woman, chestnut-auburn loose waves, green eyes, deep-emerald velvet gown with black lace collar, silver locket. 100% matches the reference.
+@DukeKael: mid-30s man, black swept-back hair, pale grey-blue eyes, faint scar through the left eyebrow, all-black brocade coat. 100% matches the reference.
+@WestCorridor: gothic stone corridor at night, iron-banded oak door with ornate iron lock plate, moonlight, candle sconces. 100% matches the reference.
+
+LOCATION MAP
+Foreground: @Elara's face sharp on the right of frame looking left. Midground: @DukeKael's dark shoulder and jaw soft on the left edge. The locked door stands just left of them, its iron lock plate catching candlelight. Background: black corridor depth. Camera at head height in the OTS-A position from the previous cut. Light from the sconce candle above and moonlight rim.
+
+FIRST FRAME / BLOCKING
+Frame opens matching the end of the previous cut: close-up on @Elara right of frame, his shoulder left of frame, vertical composition, her face at upper third.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+50° portrait compression, very shallow depth of field on her face, then focus racks hard to the door's lock plate for the final hold.
+
+CAMERA
+Holds on her face through her line and his stillness. At the first knock, a fast whip-pan-and-rack left to the door's iron lock plate, then a dead-still hold on the lock plate for the remaining seconds.
+
+ACTION
+She delivers her line up at him, unblinking. A beat of silence. Then the door beside them shudders almost imperceptibly with three slow, spaced knocks from the inside. Neither character moves; only the candle flames gutter.
+
+PERFORMANCE
+@Elara: defiance hardening to resolve on her line — then her eyes cutting left at the first knock, color draining. @DukeKael's visible jaw tightens in the soft edge of frame. No drift in facial identity.
+
+LIGHTING
+Warm 3000K candle key on her face and on the lock plate, cold 4300K moonlight rim; on the knocks, the candle flames gutter and the shadows breathe once.
+
+AUDIO
+Her voice, quiet and steady: "Then I will die knowing." A beat of dead silence — then three slow knocks from inside the door, deep and deliberate, each spaced a full second apart. Cut to silence after the third.
+
+STYLE
+Photoreal, high-end gothic romance mystery, fine film grain, deep desaturated palette, cold blue with warm candle accents.
+
+POSITIVE LOCKS
+Both match their references exactly in every frame. She stays on the right side of frame, he stays on the left edge. The door stays closed in every frame; nothing is seen opening. The corridor stays empty of anyone else visible. The screen stays free of any text or captions.
+</pre></details></td></tr><tr><td class="cut">C09</td><td>차화 예고</td><td>5s</td><td>ECU lock plate</td><td>slow drift on the first door's iron lock, key entering frame</td><td>@WestCorridor @FiveKeys</td><td class="au">VO: Next — the first door opens.</td></tr><tr class="pr"><td colspan="7"><details><summary>clip prompt — clip09_preview.txt</summary><pre>SCENE CONTEXT
+Episode teaser. A single ominous image: the first locked door of the west wing at night, and a hand bringing an antique key toward the ornate iron lock.
+
+ACTIVE REFERENCES
+@WestCorridor: iron-banded oak door with an ornate iron lock plate, gothic stone corridor at night, candle sconce glow, moonlight. 100% matches the reference.
+@FiveKeys: five ornate antique iron keys on a heavy black iron ring, dark oxidized metal with faint gold inlay. 100% matches the reference.
+
+LOCATION MAP
+Foreground: a woman's hand entering from frame right holding one key of the ring, the other four keys hanging below. Midground: the iron lock plate of the door filling the center of frame. Background: dark oak grain and iron banding falling into shadow. Camera square to the lock plate at its height, very close. Light from a candle sconce upper right and a thin blade of moonlight from the left.
+
+FIRST FRAME / BLOCKING
+Frame opens on an extreme close-up of the empty lock plate centered, keyhole dark, vertical composition with the lock at upper third and shadowed oak below.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+50° macro compression, very shallow depth of field, the lock plate razor sharp, everything else velvet dark.
+
+CAMERA
+Drifts forward almost imperceptibly toward the keyhole for the whole shot; no other movement.
+
+ACTION
+The hand with the key enters slowly from frame right, brings the key's tip to the mouth of the keyhole, and stops a hair's breadth from insertion. The final frame holds with the key touching but not turned.
+
+PERFORMANCE
+Only the hand performs: a slight tremble in the fingers, then steadying. The four hanging keys sway once and settle.
+
+LIGHTING
+Warm 3000K candle accent from upper right glinting on the key's gold inlay, cold 4300K moonlight blade raking the lock plate's relief from the left, deep black surround.
+
+AUDIO
+Female voice-over, hushed: "Next — the first door opens." The single soft scrape of key tip on iron, then silence.
+
+STYLE
+Photoreal, high-end gothic romance mystery, fine film grain, deep desaturated palette, cold blue with warm candle accents.
+
+POSITIVE LOCKS
+The key ring holds exactly five keys in every frame. The lock is never turned and the door never opens. No face is visible. The screen stays free of any text or captions.
+</pre></details></td></tr></table></body></html>

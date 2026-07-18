@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "scene_id": "SIXW_EP01",
+    "title": "다섯 개의 열쇠 / The Five Keys",
+    "runtime_target_sec": 125,
+    "aspect_ratio": "9:16",
+    "video_model": "seedance_2_0",
+    "note": "duration·aspect는 프롬프트 본문이 아니라 힉스필드 생성 파라미터로 설정"
+  },
+  "look": {
+    "palette": "dark oak + emerald velvet + antique gold; night corridor = cold blue moonlight with warm candle spots",
+    "wb": { "grand_foyer": "3000K candle chandelier + fading cool window light", "west_corridor": "4300K moonlight + warm sconce spots" },
+    "grammar": "Elara CU = eye-level (audience identification); Duke = low-angle silhouette (menace); key/door inserts = locked-off ECU; slow push-ins and holds; shallow DOF on all dialogue CUs; no on-screen text"
+  },
+  "screen_direction_lock": {
+    "Elara": "frame RIGHT, looks LEFT",
+    "Duke_Staff": "frame LEFT, look RIGHT",
+    "rule": "EP01 전체 불변. OTS 왕복 시에도 유지."
+  },
+  "asset_map": {
+    "@Elara": "엘라라 (여주 / 여섯 번째 부인)",
+    "@DukeKael": "공작 카엘",
+    "@Marguerite": "하녀장 마르그리트",
+    "@FiveKeys": "다섯 열쇠 꾸러미 (소품)",
+    "@GrandFoyer": "공작성 대현관홀",
+    "@WestCorridor": "서관 복도 (다섯 개의 잠긴 문)"
+  },
+  "shotlist": [
+    { "cut": "C01", "beat": "콜드 오픈", "dur_sec": 10, "size": "WS→MCU push-in", "cam": "slow push-in through open doors toward her", "dir": "Elara frame-right", "refs": ["@Elara", "@GrandFoyer"], "audio": "VO: Today, I became the Duke's sixth wife.", "prompt_file": "03_prompts/clip01_arrival.txt" },
+    { "cut": "C02", "beat": "배경 압축 — 서약", "dur_sec": 8, "size": "ECU hands → CU faces", "cam": "insert on ring, tilt up to their faces", "dir": "lock 유지 (Elara right, Kael left)", "refs": ["@Elara", "@DukeKael", "@GrandFoyer"], "audio": "VO: The five before me are all dead.", "prompt_file": "03_prompts/clip02_vows.txt" },
+    { "cut": "C03", "beat": "금기 부여", "dur_sec": 10, "size": "MS two-shot → ECU keys", "cam": "static two-shot, push to keys passing between hands", "dir": "Marguerite frame-left, Elara frame-right", "refs": ["@Marguerite", "@Elara", "@FiveKeys"], "audio": "Marguerite: Keep them close, my lady — and never open the west wing doors.", "prompt_file": "03_prompts/clip03_keys.txt" },
+    { "cut": "C04", "beat": "첫 위반 — 복도 트래킹", "dur_sec": 15, "size": "FS lateral tracking", "cam": "slow lateral track following her past the five doors", "dir": "Elara moves R→L, doors frame-left", "refs": ["@Elara", "@WestCorridor", "@FiveKeys"], "audio": "VO: Five doors, five dead wives — and my keys fit every lock.", "prompt_file": "03_prompts/clip04_corridor.txt" },
+    { "cut": "C05", "beat": "첫 문 — 귀 대기", "dur_sec": 10, "size": "MCU→ECU ear on door", "cam": "slow push-in as she leans to the door", "dir": "door frame-left, Elara frame-right", "refs": ["@Elara", "@WestCorridor"], "audio": "Whisper behind the door, faint and female: Run.", "prompt_file": "03_prompts/clip05_listen.txt" },
+    { "cut": "C06", "beat": "공작 등장", "dur_sec": 12, "size": "WS silhouette → MS", "cam": "she turns; hold on his silhouette down the corridor, slow advance", "dir": "Kael frame-left far, Elara frame-right near", "refs": ["@Elara", "@DukeKael", "@WestCorridor"], "audio": "Kael: You were told not to come here.", "prompt_file": "03_prompts/clip06_caught.txt" },
+    { "cut": "C07", "beat": "대치 문답", "dur_sec": 15, "size": "MCU OTS 왕복", "cam": "locked OTS pair, eye-level on Elara, subtle low on Kael", "dir": "lock 유지", "refs": ["@Elara", "@DukeKael", "@WestCorridor"], "audio": "E: How did your wives die, my lord? / K: ...Curiosity killed them.", "prompt_file": "03_prompts/clip07_question.txt" },
+    { "cut": "C08", "beat": "클리프행어", "dur_sec": 12, "size": "CU Elara → ECU door", "cam": "hold on her face, whip focus to the door as knocking starts", "dir": "lock 유지, door frame-left", "refs": ["@Elara", "@DukeKael", "@WestCorridor"], "audio": "Elara: Then I will die knowing. — then three slow knocks from inside the door.", "prompt_file": "03_prompts/clip08_knock.txt" },
+    { "cut": "C09", "beat": "차화 예고", "dur_sec": 5, "size": "ECU lock plate", "cam": "slow drift on the first door's iron lock, key entering frame", "dir": "-", "refs": ["@WestCorridor", "@FiveKeys"], "audio": "VO: Next — the first door opens.", "prompt_file": "03_prompts/clip09_preview.txt" }
+  ]
+}

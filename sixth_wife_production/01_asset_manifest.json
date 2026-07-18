@@ -1,0 +1,56 @@
+{
+  "project": "sixth_wife",
+  "episode": "EP01",
+  "aspect_ratio_assets": "9:16",
+  "image_model": "nano_banana_2",
+  "generation_pattern": { "count": 2, "note": "generate_image count:2 — 검증된 효율 패턴. full UUID 필수." },
+  "assets": [
+    {
+      "handle": "@Elara",
+      "type": "character",
+      "role": "여주 / 여섯 번째 부인 엘라라 — 몰락 남작가의 딸",
+      "status": "pending",
+      "prompt": "Full-body character reference, young woman in her early 20s, quietly intelligent presence, chestnut-auburn hair in loose waves falling past her shoulders, clear green eyes, fair skin with light freckles across the nose, standing straight facing camera, neutral expression with a steady observant gaze. She wears a floor-length deep-emerald velvet gown with a high black lace collar, fitted long sleeves with black lace cuffs, and a small antique silver locket on a thin chain. Plain seamless light-grey studio background, even soft lighting, photorealistic, 8K detail, velvet nap and lace texture visible."
+    },
+    {
+      "handle": "@DukeKael",
+      "type": "character",
+      "role": "공작 카엘 — 다섯 부인을 잃은 남주",
+      "status": "pending",
+      "prompt": "Full-body character reference, man in his mid-30s, tall and severe aristocratic build, black hair worn slightly long and swept back, pale grey-blue eyes, a faint old scar through the left eyebrow, guarded unreadable expression. He wears an all-black brocade frock coat with silver fastenings, a black cravat with a silver pin, black gloves, and a signet ring with a raven crest over the glove. Standing straight facing camera, hands at his sides. Plain seamless light-grey studio background, even soft lighting, photorealistic, 8K detail."
+    },
+    {
+      "handle": "@Marguerite",
+      "type": "character",
+      "role": "하녀장 마르그리트 — 열쇠와 금기를 전달",
+      "status": "pending",
+      "prompt": "Full-body character reference, woman in her late 50s, upright rigid posture, steel-grey hair in a tight low bun, deep-set watchful dark eyes, thin pressed lips. She wears a plain black high-collared housekeeper's dress with a row of small jet buttons, a silver chatelaine at the waist, and white cuffs. Standing straight facing camera, stern composed expression. Plain seamless light-grey studio background, even soft lighting, photorealistic, 8K detail."
+    },
+    {
+      "handle": "@FiveKeys",
+      "type": "prop",
+      "role": "다섯 개의 열쇠 꾸러미 — 금기의 상징 (ECU 인서트용)",
+      "status": "pending",
+      "prompt": "Product-style reference of a single prop: five ornate antique iron keys of slightly different lengths on a heavy black iron ring, each key bow cast in a different worn heraldic shape, dark oxidized metal with faint gold inlay traces, laid flat and fanned apart. Plain seamless light-grey studio background, even soft lighting, photorealistic, 8K macro detail, fine rust pitting and tool marks visible."
+    },
+    {
+      "handle": "@GrandFoyer",
+      "type": "location",
+      "role": "공작성 대현관홀 (도착·서약)",
+      "status": "pending",
+      "prompt": "Vertical architectural plate, interior of a gothic manor great hall at dusk. A double sweeping staircase of dark oak with worn crimson runners, a massive wrought-iron chandelier holding dozens of lit candles, tall leaded windows with the last cold daylight, ancestral portraits in tarnished gold frames along the walls, a black-and-white marble checkered floor. Empty of people. Warm candlelight around 3000K against fading cool window light, faint dust in the air, photorealistic, 8K detail, vertical 9:16 composition with the chandelier at upper third."
+    },
+    {
+      "handle": "@WestCorridor",
+      "type": "location",
+      "role": "서관 복도 — 다섯 개의 잠긴 문 (금기 구역·메인 시퀀스)",
+      "status": "pending",
+      "prompt": "Vertical architectural plate, a long stone corridor in a gothic manor at night. Along the left wall, five identical heavy oak doors banded with black iron, each with an ornate iron lock plate, evenly spaced and receding into darkness. Along the right wall, tall mullioned windows letting in cold blue moonlight in slanted shafts, and sparse wall sconces with single guttering candles between the windows. Bare stone floor with a narrow dark runner carpet. Empty of people. Mixed lighting, 4300K moonlight with warm candle spots, deep shadows between doors, photorealistic, 8K detail, vertical 9:16 composition with the corridor vanishing point at upper third."
+    }
+  ],
+  "phase2_assets_deferred": [
+    { "handle": "@FirstRoom", "for": "EP02 첫 번째 문 안의 방" },
+    { "handle": "@Chapel", "for": "EP03 지하 예배당" },
+    { "handle": "@PortraitGallery", "for": "EP03 다섯 부인의 초상화 갤러리" }
+  ]
+}

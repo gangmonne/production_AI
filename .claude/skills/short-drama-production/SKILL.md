@@ -116,10 +116,15 @@ OPTICS / CAMERA / ACTION / PERFORMANCE / LIGHTING / AUDIO / STYLE / POSITIVE LOC
 
 ## 5단계 — 파이프라인 보드 (`<ep>_pipeline_board.html`)
 
-사람 검토용 단일 HTML: 헤더(작품·포맷·방향 락·실행 전제) + 에셋 카드 그리드(핸들·역할·
-`<details>`로 접은 프롬프트) + 컷리스트 테이블(컷·비트·길이·카메라·refs·오디오, 행마다
-`<details>`로 접은 클립 프롬프트 전문). 다크 테마. 마크업 구조는
-`references/example-empress-ep01/ep01_pipeline_board.html` 참조.
+사람 검토용 단일 HTML — 직접 쓰지 말고 번들 스크립트로 생성한다:
+
+```bash
+python <skill_dir>/scripts/build_pipeline_board.py <production_dir>
+```
+
+01/02 JSON과 03_prompts를 읽어 표준 보드(헤더 + 에셋 카드 그리드 + 컷리스트 테이블,
+프롬프트는 `<details>`로 접힘, 다크 테마)를 만들어 준다. 레이아웃을 바꿔야 할 때만
+`references/example-empress-ep01/ep01_pipeline_board.html`을 참조해 수동 작성.
 
 ## 새 작품에 적용하는 법 (Phase 3 패턴)
 

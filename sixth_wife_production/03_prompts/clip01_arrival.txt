@@ -1,0 +1,39 @@
+SCENE CONTEXT
+A young bride arrives at her new home: the great hall of a vast gothic manor at dusk. She has just been married into the house of a duke whose five previous wives are all dead. She stands alone just inside the entrance, a hooded traveling cloak over her gown, taking in the hall for the first time.
+
+ACTIVE REFERENCES
+@Elara: early-20s woman, chestnut-auburn loose waves, green eyes, deep-emerald velvet gown with black lace collar and cuffs, small silver locket. 100% matches the reference.
+@GrandFoyer: gothic great hall, double oak staircase with crimson runners, wrought-iron candle chandelier, ancestral portraits, checkered marble floor. 100% matches the reference.
+
+LOCATION MAP
+Foreground: checkered marble floor and the hem of her emerald gown beneath a charcoal hooded cloak. Midground: @Elara standing on the right side of frame, facing left and inward toward the hall. Background: the double staircase and the candle chandelier receding upward into shadow, portraits along the walls. Camera inside the hall, looking back toward her against the tall doorway. Light from the chandelier above and cold dusk light from the leaded windows behind her.
+
+FIRST FRAME / BLOCKING
+Frame opens wide on the hall with @Elara small on the right third, framed by the tall open doorway, vertical composition, chandelier at upper third.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+35° compression at the start easing tighter as the camera approaches, shallow depth of field by the end, candle flames dissolving into warm bokeh.
+
+CAMERA
+Starts wide at chest height eight meters from her, pushes in slowly and steadily along the checkered floor, ending in a medium close-up of her face on the right third of frame. The push completes in the final two seconds.
+
+ACTION
+She pulls back her hood with both hands in the first third of the shot, revealing her face and hair. She then stands still, only her eyes moving as they travel up the staircase and across the portraits, ending looking left into the depth of the hall.
+
+PERFORMANCE
+Composed but wary; a bride who chose this and knows what it costs. A small swallow, steady green eyes, no smile. Visible fine skin texture, no drift in facial identity.
+
+LIGHTING
+Warm candle key at 3000K from the chandelier above, cool fading dusk rim from the windows behind her catching the edge of her cloak and hair.
+
+AUDIO
+Female voice-over, low and even: "Today, I became the Duke's sixth wife." Cavernous hall ambience, a heavy door closing somewhere behind her.
+
+STYLE
+Photoreal, high-end gothic romance mystery, fine film grain, deep desaturated palette with emerald and antique gold.
+
+POSITIVE LOCKS
+Her appearance matches @Elara exactly in every frame. She stays on the right side of frame, looking left. The hall stays empty of other people. The screen stays free of any text or captions.

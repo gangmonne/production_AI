@@ -1,0 +1,40 @@
+SCENE CONTEXT
+Evening of the wedding day, in the great hall at the foot of the staircase. The housekeeper formally hands the new duchess the household keys — five ornate keys on an iron ring — and delivers the house's one rule as a warning.
+
+ACTIVE REFERENCES
+@Marguerite: late-50s housekeeper, steel-grey tight bun, black high-collared dress with jet buttons, silver chatelaine, white cuffs. 100% matches the reference.
+@Elara: early-20s woman, chestnut-auburn loose waves, green eyes, deep-emerald velvet gown with black lace collar, silver locket. 100% matches the reference.
+@FiveKeys: five ornate antique iron keys of different lengths on a heavy black iron ring, dark oxidized metal with faint gold inlay. 100% matches the reference.
+
+LOCATION MAP
+Foreground: nothing — clean space to the checkered floor. Midground: @Marguerite standing on the left of frame facing right, @Elara on the right of frame facing left, an arm's length apart at the foot of the dark oak staircase. Background: the staircase and candle sconces softly defocused. Camera at chest height, square to the two of them. Light from a candle sconce high left and the chandelier's glow.
+
+FIRST FRAME / BLOCKING
+Frame opens on a balanced medium two-shot, @Marguerite left and @Elara right, the iron key ring already lifted in the housekeeper's two hands between them, vertical composition with both faces in the upper third.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+35° compression easing to 50° as the camera pushes to the keys. Shallow depth of field, faces soft when the keys are sharp.
+
+CAMERA
+Holds the two-shot for the first half of the line, then pushes in slowly and re-racks focus to the keys as they pass between hands, ending in an extreme close-up of @FiveKeys resting in Elara's open palms.
+
+ACTION
+@Marguerite extends the key ring with both hands, a formal practiced gesture. @Elara receives it with both palms up. The keys settle into her hands with real weight; her fingers close slowly around the ring.
+
+PERFORMANCE
+@Marguerite: stern, quiet urgency under the formality, eyes fixed on Elara through the whole line. @Elara: attentive, a flicker of a question in her eyes at the word "never". No drift in facial identity.
+
+LIGHTING
+Warm 3000K candle key from high left on Marguerite's face, the same warmth catching the gold inlay of the keys; cool ambient fill from the hall behind.
+
+AUDIO
+Older female voice, low and measured: "Keep them close, my lady — and never open the west wing doors." Faint metallic chime of the keys as they change hands.
+
+STYLE
+Photoreal, high-end gothic romance mystery, fine film grain, deep desaturated palette with emerald and antique gold.
+
+POSITIVE LOCKS
+Both women match their references exactly in every frame. Marguerite stays on the left side of frame, Elara stays on the right. The key ring holds exactly five keys in every frame. The screen stays free of any text or captions.
