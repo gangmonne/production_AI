@@ -1,0 +1,415 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EMPRESS EP01 — Pipeline Board</title><style>
+body{font-family:'Segoe UI',Pretendard,sans-serif;background:#141118;color:#e8e2ee;margin:0;padding:24px}
+h1{font-size:22px;color:#e9c46a} h2{font-size:16px;color:#c9a0dc;border-bottom:1px solid #3a2f47;padding-bottom:6px;margin-top:36px}
+.meta{color:#9a8fb0;font-size:13px;line-height:1.7}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.card{background:#1e1826;border:1px solid #3a2f47;border-radius:10px;padding:12px}
+.hd{display:flex;justify-content:space-between;margin-bottom:6px}
+.tag{color:#e9c46a;font-weight:700;font-family:monospace} .typ{color:#7a6f90;font-size:11px}
+.role{font-size:13px;margin-bottom:8px}
+details summary{cursor:pointer;color:#8ecae6;font-size:12px}
+pre{white-space:pre-wrap;background:#0f0c14;border-radius:8px;padding:10px;font-size:11px;color:#cfc7dd;line-height:1.5}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+th{text-align:left;color:#c9a0dc;border-bottom:1px solid #3a2f47;padding:8px 6px}
+td{padding:8px 6px;border-bottom:1px solid #251d30;vertical-align:top}
+.cut{color:#e9c46a;font-weight:700;font-family:monospace} .au{color:#9a8fb0;font-style:italic}
+tr.pr td{border-bottom:1px solid #3a2f47;background:#181221}
+.lock{background:#231a2e;border-left:3px solid #e76f51;padding:10px 14px;border-radius:6px;font-size:13px;line-height:1.7}
+</style></head><body>
+<h1>EMPRESS SELECTION — EP01 「일곱 후보의 정렬」 · AI 영상 자동화 파이프라인 보드</h1>
+<p class="meta">시나리오 1 「황후 간택식에 전남편이 후보로 나왔다」 · 9:16 세로 · 타깃 120초+예고 5초 · 이미지 nano_banana_2 / 영상 seedance_2_0<br>
+스크린 방향 락: 라이오넬라 = 프레임 우측(→좌), 후보군·카르텔 = 프레임 좌측(→우) · EP01 전체 불변 · 화면 내 텍스트 생성 금지</p>
+<div class="lock"><b>실행 전제:</b> 힉스필드 MCP 커넥터를 이 대화에서 켠 뒤 — Phase A(에셋 7종 × count 2) 발주 → 핸들당 1장 픽 → Phase B(9클립 순차 발주). 상세는 RUN_MANIFEST.json.</div>
+<h2>2단계 — 에셋 매니페스트 (7종)</h2><div class="grid"><div class="card"><div class="hd"><span class="tag">@Lionella</span><span class="typ">character</span></div>
+<div class="role">여주 / 회귀 황후 → 여대공 라이오넬라 발렌티노</div><details><summary>generation prompt</summary><pre>Full-body character reference, young woman in her mid-20s, regal cold beauty, platinum ash-blonde hair swept into a high ceremonial updo, pale violet eyes, porcelain skin, standing straight facing camera, neutral expression with a faint knowing edge. She wears a floor-length white ceremonial gown of layered silk with silver embroidery at the bodice, long fitted sleeves, and a diamond tiara with a single large teardrop stone at the center of her forehead. Plain seamless light-grey studio background, even soft lighting, photorealistic, 8K detail, fabric weave and gemstone facets visible.</pre></details></div><div class="card"><div class="hd"><span class="tag">@Cartel</span><span class="typ">character</span></div>
+<div class="role">전남편 / 카르텔 공작 — 부마 후보 3번</div><details><summary>generation prompt</summary><pre>Full-body character reference, man in his early 30s, tall aristocratic build, jet-black hair combed back with one loose strand, sharp jawline, grey eyes, handsome but guarded expression. He wears a midnight-navy imperial formal coat with gold braid epaulettes, high collar, white gloves, and a ducal crest pin at the chest. Standing straight facing camera, hands at his sides. Plain seamless light-grey studio background, even soft lighting, photorealistic, 8K detail.</pre></details></div><div class="card"><div class="hd"><span class="tag">@Alexis</span><span class="typ">character</span></div>
+<div class="role">새 황제 알렉시스</div><details><summary>generation prompt</summary><pre>Full-body character reference, man in his late 20s, golden-brown hair to the collar, warm amber eyes, composed benevolent expression, athletic build. He wears white-and-gold imperial regalia: a long white coat with gold-thread sun emblems, a deep-red sash across the chest, and a slim gold circlet crown. Standing straight facing camera. Plain seamless light-grey studio background, even soft lighting, photorealistic, 8K detail.</pre></details></div><div class="card"><div class="hd"><span class="tag">@Valtor</span><span class="typ">character</span></div>
+<div class="role">시아버지 발토르 — 부마 후보 1번</div><details><summary>generation prompt</summary><pre>Full-body character reference, man in his early 60s, silver-grey hair and a trimmed grey beard, deep-set cold eyes, heavyset imposing frame. He wears a charcoal-black formal court coat with silver fastenings and a fur-trimmed half-cape over the left shoulder. Standing straight facing camera, stern expression. Plain seamless light-grey studio background, even soft lighting, photorealistic, 8K detail.</pre></details></div><div class="card"><div class="hd"><span class="tag">@Leo</span><span class="typ">character</span></div>
+<div class="role">시동생 레오 — 부마 후보 2번</div><details><summary>generation prompt</summary><pre>Full-body character reference, young man in his early 20s, soft handsome features, dark brown wavy hair, hazel eyes, slightly nervous posture. He wears a burgundy court jacket with gold buttons and a cream cravat. Standing straight facing camera. Plain seamless light-grey studio background, even soft lighting, photorealistic, 8K detail.</pre></details></div><div class="card"><div class="hd"><span class="tag">@GrandCathedral</span><span class="typ">location</span></div>
+<div class="role">황실 대성당 + 옥좌 단상 (콜드오픈·간택식)</div><details><summary>generation prompt</summary><pre>Vertical architectural plate, interior of a vast imperial cathedral doubling as a throne hall. Towering white marble columns with gold capitals, a long crimson carpet running from massive open bronze doors to a raised marble dais with a gilded throne, stained-glass windows in sapphire, ruby and amber casting colored light shafts through faint incense haze, hundreds of candles in standing candelabra along the walls. Empty of people. Warm candlelight around 3200K mixed with cool colored window light, photorealistic, 8K detail, vertical 9:16 composition with the throne at upper third.</pre></details></div><div class="card"><div class="hd"><span class="tag">@Bedchamber</span><span class="typ">location</span></div>
+<div class="role">황후 침실 (독살 플래시백)</div><details><summary>generation prompt</summary><pre>Vertical architectural plate, opulent imperial bedchamber at night. A canopied four-poster bed with deep-blue velvet drapes and white silk sheets, a small side table with a silver wine decanter and a single crystal glass, tall windows with heavy curtains letting in a thin blade of cold moonlight, a dying candle on the nightstand. Empty of people. Low-key lighting, mixed 4000K moonlight and warm candle glow, photorealistic, 8K detail, vertical 9:16 composition.</pre></details></div></div>
+<h2>4·5단계 — 컷리스트 + Seedance 프롬프트 (9클립 · 합계 97초)</h2>
+<table><tr><th>컷</th><th>비트</th><th>길이</th><th>사이즈</th><th>카메라</th><th>레퍼런스</th><th>오디오</th></tr><tr><td class="cut">C01</td><td>콜드 오픈</td><td>10s</td>
+<td>WS→CU tilt-up</td><td>low tilt-up along body</td><td>@Lionella @GrandCathedral</td>
+<td class="au">VO: Five years ago today, I became Empress here.</td></tr>
+<tr class="pr"><td colspan="7"><details><summary>Seedance prompt — clip01_cold_open.txt</summary><pre>SCENE CONTEXT
+An imperial coronation-selection ceremony begins. A young royal woman stands alone just inside the massive bronze doors of a vast marble cathedral, facing down the crimson carpet toward a distant throne.
+
+ACTIVE REFERENCES
+@Lionella: mid-20s royal woman, platinum ash-blonde ceremonial updo, white silk gown with silver embroidery, diamond tiara with a teardrop stone. 100% matches the reference.
+@GrandCathedral: marble cathedral throne hall, crimson carpet, stained-glass light shafts, standing candelabra. 100% matches the reference.
+
+LOCATION MAP
+Foreground: polished marble floor and the hem of her white gown. Midground: @Lionella standing centered on the crimson carpet. Background: columns receding toward the gilded throne, sapphire and ruby light shafts through incense haze at 20% density. Camera near the floor in front of her. Light from candelabra both sides and colored windows high left.
+
+FIRST FRAME / BLOCKING
+Frame opens on her white slippers and gown hem on crimson carpet, centered, vertical composition.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+29° portrait compression throughout, no drift mid-shot. Shallow depth of field, background candles dissolve into round bokeh.
+
+CAMERA
+Starts at ankle height 1.5 meters from her, tilts up smoothly along the gown, the bodice, the diamond tiara, ending framed on her face in the upper third. Tilt speed steady and ceremonial, completing in the final second.
+
+ACTION
+She stands perfectly still through the tilt. As the frame reaches her face, her chin lifts two centimeters and her eyes open from a slow blink, gaze fixed far ahead toward the throne.
+
+PERFORMANCE
+Neutral regal mask with a faint cold edge at the mouth corner. Catch-lights from candle flames in both eyes. Visible fine skin texture, no drift in facial identity.
+
+LIGHTING
+Warm candle key at 3200K from both sides, cool sapphire window spill as rim on her hair and tiara. Haze holds the light shafts visible.
+
+AUDIO
+Female voice-over, low and calm: &quot;Five years ago today, I became Empress here.&quot; Distant cathedral ambience, a single deep bell.
+
+STYLE
+Photoreal, high-end romantic fantasy, fine film grain, jewel-tone palette.
+
+POSITIVE LOCKS
+Her appearance matches @Lionella exactly in every frame. The tiara stays centered on her forehead. The hall stays empty of other people. The screen stays free of any text or captions.
+</pre></details></td></tr><tr><td class="cut">C02</td><td>독살 플래시백</td><td>8s</td>
+<td>MS→ECU insert</td><td>handheld drift + insert on hidden hand</td><td>@Lionella @Cartel @Bedchamber</td>
+<td class="au">VO: The poison came from my husband.</td></tr>
+<tr class="pr"><td colspan="7"><details><summary>Seedance prompt — clip02_flashback.txt</summary><pre>SCENE CONTEXT
+A memory of a poisoning, three years into a marriage. In an opulent bedchamber at night, the Empress lies dying on the bed while her husband kneels at the bedside holding her hand — and hides a wine bottle with his other hand.
+
+ACTIVE REFERENCES
+@Lionella: mid-20s woman, platinum ash-blonde hair now loose and damp, white silk nightgown, deathly pale. 100% matches the reference.
+@Cartel: early-30s aristocrat, jet-black hair, midnight-navy coat, grey eyes wet with performed tears. 100% matches the reference.
+@Bedchamber: canopied bed, blue velvet drapes, side table with silver decanter, thin moonlight blade. 100% matches the reference.
+
+LOCATION MAP
+Foreground: edge of the side table with the crystal glass. Midground: @Lionella on white sheets, @Cartel kneeling at frame-left of the bed facing right. Background: dark curtains, one dying candle. Camera at the foot of the bed. Moonlight from the tall window right, candle glow left.
+
+FIRST FRAME / BLOCKING
+Vertical frame: her pale face and shoulder upper third, his bowed head and clasped hands mid-frame, the bed sheets lower third.
+
+FORMAT MODE
+CUT 1 — bedside two-shot. CUT 2 — extreme close-up under the table edge.
+
+OPTICS
+CUT 1 at 47° neutral, CUT 2 at 12° tele-detail. No drift mid-segment.
+
+CAMERA
+CUT 1: handheld with a 1 cm tremor, drifting 10 cm left over the cut. CUT 2: locked, framed low under the table line.
+
+ACTION
+CUT 1: she convulses once, a thin line of black-tinted blood at her lips; he presses her hand to his forehead, shoulders shaking. CUT 2: his other hand slides a dark wine bottle from the tabletop down below the table edge, slow and deliberate, fingers silent on the glass.
+
+PERFORMANCE
+Her eyes track him with fading focus. His weeping reads as performance: brows correct, eyes calculating.
+
+LIGHTING
+Low-key 4000K mixed light, 90% of the frame in shadow, moonlight blade cutting across the sheets, candle warmth only on faces.
+
+AUDIO
+Female voice-over, flat: &quot;The poison came from my husband.&quot; Underneath, a faint glass scrape.
+
+STYLE
+Photoreal, cold desaturated memory grade with warm candle accents, fine grain.
+
+POSITIVE LOCKS
+Both faces match their references exactly. The bottle stays in his hand through CUT 2. The screen stays free of any text.
+</pre></details></td></tr><tr><td class="cut">C03</td><td>회귀·선언</td><td>10s</td>
+<td>WS low-angle throne</td><td>slow push-in on Alexis rising</td><td>@Alexis @Lionella @GrandCathedral</td>
+<td class="au">Alexis: I grant you the right to choose your own consort.</td></tr>
+<tr class="pr"><td colspan="7"><details><summary>Seedance prompt — clip03_decree.txt</summary><pre>SCENE CONTEXT
+Back in the present, inside the cathedral throne hall. The young Emperor rises from the gilded throne on the dais and grants the woman below the right to choose her own consort.
+
+ACTIVE REFERENCES
+@Alexis: late-20s emperor, golden-brown collar-length hair, white-and-gold regalia, red sash, gold circlet. 100% matches the reference.
+@Lionella: white ceremonial gown, diamond tiara, seen from behind at the base of the dais. 100% matches the reference.
+@GrandCathedral: marble dais, gilded throne, stained-glass shafts. 100% matches the reference.
+
+LOCATION MAP
+Foreground: @Lionella&#x27;s back and tiara, lower frame. Midground: marble steps of the dais. Background: @Alexis at the throne, upper frame, colored light shafts behind him. Camera low behind her right shoulder. Key light from high stained-glass windows behind the throne.
+
+FIRST FRAME / BLOCKING
+Vertical over-the-shoulder composition: her tiara bottom third, the throne and @Alexis upper third, steps connecting them.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+47° neutral perspective, no drift. Focus on @Alexis, her shoulder softly out of focus in foreground.
+
+CAMERA
+Slow push-in at walking pace toward the throne as he rises, ending with him waist-up.
+
+ACTION
+@Alexis stands from the throne in one unhurried motion, spreads one gloved hand outward, and speaks directly down toward her. She remains motionless.
+
+PERFORMANCE
+His delivery is warm, deliberate, each word placed. Direct eye-line down the steps to her.
+
+LIGHTING
+Golden window light haloing his shoulders, 3200K candle fill on the steps, faint haze holding the shafts.
+
+AUDIO
+@Alexis speaks, resonant in the hall: &quot;I grant you the right to choose your own consort.&quot;
+
+STYLE
+Photoreal, high-end romantic fantasy, jewel-tone palette, fine grain.
+
+POSITIVE LOCKS
+Both figures match their references exactly. The throne stays centered above her tiara line. The screen stays free of any text.
+</pre></details></td></tr><tr><td class="cut">C04</td><td>일곱 후보 트래킹</td><td>15s</td>
+<td>MS lateral tracking</td><td>slow lateral track along the line, POV-adjacent</td><td>@Valtor @Leo @Cartel @GrandCathedral</td>
+<td class="au">VO: You first. I will kill you slowly.</td></tr>
+<tr class="pr"><td colspan="7"><details><summary>Seedance prompt — clip04_tracking.txt</summary><pre>SCENE CONTEXT
+Seven consort candidates stand in a formal line at the base of the cathedral dais. The camera moves along the line like her gaze, passing an old nobleman and a nervous young man, and stops on a black-haired duke.
+
+ACTIVE REFERENCES
+@Valtor: early-60s, silver beard, charcoal coat with fur half-cape. 100% matches the reference.
+@Leo: early-20s, dark wavy hair, burgundy jacket, cream cravat. 100% matches the reference.
+@Cartel: early-30s, jet-black hair, midnight-navy coat, white gloves. 100% matches the reference.
+@GrandCathedral: marble columns, candelabra, crimson carpet. 100% matches the reference.
+
+LOCATION MAP
+Foreground: none — clean lateral space. Midground: the candidate line on the crimson carpet, all standing at frame-left third, bodies angled facing frame-right. Background: columns and candle bokeh. Camera tracks parallel to the line at 2 meters distance. Candle key from frame-right, window color from high behind.
+
+FIRST FRAME / BLOCKING
+Vertical frame opens on @Valtor waist-up at frame-left, face toward frame-right, line receding behind him.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+29° portrait compression, shallow focus riding whichever candidate is centered, no drift.
+
+CAMERA
+Smooth lateral track moving screen-right-to-left along the line at 2 km/h, passing @Valtor, then @Leo, then settling and stopping fully on @Cartel, holding the final 4 seconds.
+
+ACTION
+@Valtor holds a stiff bow of the head as the camera passes. @Leo swallows, fingers twitching at his seam. @Cartel stands motionless, gaze lowered — then, in the held final seconds, his eyes lift toward the lens position.
+
+PERFORMANCE
+Each man distinct: stone pride, rabbit nerves, sealed composure. On @Cartel the lift of the eyes is slow, 2 full seconds.
+
+LIGHTING
+Warm 3200K candle key from frame-right raking across faces, cool jewel spill as hair rim.
+
+AUDIO
+Female voice-over, quiet and precise: &quot;You first. I will kill you slowly.&quot; Hall ambience under it.
+
+STYLE
+Photoreal, high-end romantic fantasy, fine grain.
+
+POSITIVE LOCKS
+All three faces match their references exactly and keep their left-third placement facing frame-right. The camera stops fully on @Cartel. The screen stays free of any text.
+</pre></details></td></tr><tr><td class="cut">C05</td><td>시선 교차</td><td>10s</td>
+<td>CU/CU OTS 왕복</td><td>OTS pair, eyeline match</td><td>@Lionella @Cartel</td>
+<td class="au">Alexis(off): If one of them holds your heart, speak now.</td></tr>
+<tr class="pr"><td colspan="7"><details><summary>Seedance prompt — clip05_eyes_meet.txt</summary><pre>SCENE CONTEXT
+In the cathedral throne hall, the duke in the candidate line raises his head and meets the gaze of the royal woman on the dais for the first time. She answers with a slow smile. The Emperor&#x27;s voice rings from off-screen.
+
+ACTIVE REFERENCES
+@Lionella: white gown, diamond tiara, standing elevated on the dais at frame-right, facing frame-left. 100% matches the reference.
+@Cartel: midnight-navy coat, standing below at frame-left, facing frame-right and upward. 100% matches the reference.
+
+LOCATION MAP
+Two reverse setups across the dais steps. Candle key warm from the hall sides, jewel window spill as rim. Haze 20%.
+
+FIRST FRAME / BLOCKING
+Frame opens over @Cartel&#x27;s left shoulder looking up: his dark shoulder soft in the lower-left corner, @Lionella sharp at frame-right upper third.
+
+FORMAT MODE
+CUT 1 — over-the-shoulder up at her. CUT 2 — reverse over-the-shoulder down at him. CUT 3 — her close-up.
+
+OPTICS
+All cuts at 29° portrait compression, shallow focus, no drift mid-segment.
+
+CAMERA
+CUT 1: locked, slight low angle over his shoulder, her eyeline landing into the lens-side. CUT 2: locked reverse over her shoulder, slight high angle onto his upturned face. CUT 3: locked, subtle low angle on her face alone.
+
+ACTION
+CUT 1: she registers his stare and holds it. CUT 2: his expression is that of a man seeing a stranger — open, struck, a flicker of interest crossing his brow. CUT 3: her lips curve into a slow, unhurried smile that never reaches her eyes.
+
+PERFORMANCE
+Eyeline match locked across all cuts: she looks down frame-left, he looks up frame-right. Micro-pauses before each expression change. Catch-lights in both pairs of eyes.
+
+LIGHTING
+Warm 3200K key from the hall, sapphire rim on her tiara, amber rim on his black hair.
+
+AUDIO
+Male voice off-screen, resonant: &quot;If one of them holds your heart, speak now.&quot;
+
+STYLE
+Photoreal, high-end romantic fantasy, fine grain.
+
+POSITIVE LOCKS
+She stays frame-right looking left, he stays frame-left looking right, in every cut. Faces match references exactly. The screen stays free of any text.
+</pre></details></td></tr><tr><td class="cut">C06</td><td>하강·통과·정지</td><td>12s</td>
+<td>FS follow → MS</td><td>steadicam follow behind shoulder</td><td>@Lionella @Valtor @Leo @Cartel @GrandCathedral</td>
+<td class="au">Lionella: Duke.</td></tr>
+<tr class="pr"><td colspan="7"><details><summary>Seedance prompt — clip06_walk_line.txt</summary><pre>SCENE CONTEXT
+The royal woman descends the marble dais steps and walks slowly along the line of seven candidates, passing an old nobleman and a young man without pausing, and stops directly in front of the black-haired duke.
+
+ACTIVE REFERENCES
+@Lionella: white ceremonial gown trailing, diamond tiara. 100% matches the reference.
+@Valtor: charcoal coat, fur half-cape. 100% matches the reference.
+@Leo: burgundy jacket, cream cravat. 100% matches the reference.
+@Cartel: midnight-navy coat, white gloves. 100% matches the reference.
+@GrandCathedral: marble steps, crimson carpet, candelabra. 100% matches the reference.
+
+LOCATION MAP
+Midground: the candidate line along the carpet at frame-left, faces toward frame-right. @Lionella walks the line moving screen right-to-left. Background: columns and candle bokeh. Camera follows behind her right shoulder at 1.5 meters. Candle key frame-right, jewel spill rim.
+
+FIRST FRAME / BLOCKING
+Vertical frame: her back and gown descending the last step, the line of men waiting ahead at frame-left.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+47° neutral, focus holds on her; each candidate sharpens only as she reaches him. No drift.
+
+CAMERA
+Steadicam follow behind her shoulder at her walking pace of 3 km/h, gliding past @Valtor, past @Leo, then easing to a full stop as she stops squarely in front of @Cartel, the two in profile facing each other.
+
+ACTION
+Her pace is even and ceremonial, gown whispering on marble. @Valtor&#x27;s jaw tightens as she passes without a glance. @Leo exhales when she moves on. She halts before @Cartel; a beat of stillness; her chin lifts to meet his eyes.
+
+PERFORMANCE
+Her profile stays serene. @Cartel&#x27;s eyes carry a spark of favor as she stops.
+
+LIGHTING
+Warm 3200K candle key raking the line, cool rim tracing her white gown edge.
+
+AUDIO
+Fabric and soft footfalls on marble, hall reverb. She speaks one word, low: &quot;Duke.&quot;
+
+STYLE
+Photoreal, high-end romantic fantasy, fine grain.
+
+POSITIVE LOCKS
+She travels right-to-left and stops at @Cartel. All faces match references exactly. The gown stays pristine white. The screen stays free of any text.
+</pre></details></td></tr><tr><td class="cut">C07</td><td>첫 질문</td><td>15s</td>
+<td>MCU OTS 왕복</td><td>locked OTS pair, subtle low on Lionella</td><td>@Lionella @Cartel</td>
+<td class="au">L: Have you ever been married? / C: ...Once. She died five years ago.</td></tr>
+<tr class="pr"><td colspan="7"><details><summary>Seedance prompt — clip07_question.txt</summary><pre>SCENE CONTEXT
+Face to face before the candidate line, the royal woman asks the duke a public question that freezes him: whether he has ever been married. Every other candidate turns to look at him.
+
+ACTIVE REFERENCES
+@Lionella: white gown, diamond tiara, standing at frame-right facing frame-left. 100% matches the reference.
+@Cartel: midnight-navy coat, standing at frame-left facing frame-right. 100% matches the reference.
+
+LOCATION MAP
+The two stand one meter apart on the crimson carpet, in profile to camera. Reverse OTS setups. Candle key from frame-right at 3200K, jewel window rim behind. Blurred candidate figures in deep background.
+
+FIRST FRAME / BLOCKING
+Frame opens over @Cartel&#x27;s shoulder: his navy shoulder soft lower-left, her face sharp upper-right third.
+
+FORMAT MODE
+CUT 1 — over his shoulder on her, she asks. CUT 2 — reverse over her shoulder on him, one second of frozen silence, background figures turn. CUT 3 — his medium close-up, he answers.
+
+OPTICS
+29° portrait compression all cuts, shallow focus, background figures stay soft-blurred, no drift mid-segment.
+
+CAMERA
+CUT 1: locked, subtle low angle on her. CUT 2: locked, eye-level on him. CUT 3: locked, creeping 5 cm push-in as he answers.
+
+ACTION
+CUT 1: she tilts her head one degree, polite venom, and asks. CUT 2: his face sets hard; behind him, the blurred candidates rotate their heads toward him in near-unison. CUT 3: his throat moves; he answers in two broken phrases.
+
+PERFORMANCE
+Her courtesy is surgical. His control cracks only at the eyes — a fast blink, then held stillness. Eyeline lock: she looks frame-left, he looks frame-right.
+
+LIGHTING
+Warm key raking their profiles, soft amber fill, rims separating both from the dark hall.
+
+AUDIO
+Her voice, clear and pleasant: &quot;Have you ever been married?&quot; A beat of hall silence. His voice, lower: &quot;...Once. She died five years ago.&quot;
+
+STYLE
+Photoreal, high-end romantic fantasy, fine grain.
+
+POSITIVE LOCKS
+Screen direction holds: she frame-right looking left, he frame-left looking right, every cut. Faces match references exactly. The screen stays free of any text.
+</pre></details></td></tr><tr><td class="cut">C08</td><td>클리프행어</td><td>12s</td>
+<td>CU hands insert → CU faces</td><td>insert then rise to faces, hold</td><td>@Lionella @Cartel</td>
+<td class="au">L: Tell me. What did she look like?</td></tr>
+<tr class="pr"><td colspan="7"><details><summary>Seedance prompt — clip08_cliffhanger.txt</summary><pre>SCENE CONTEXT
+The royal woman takes the duke&#x27;s gloved hand in both of hers before the whole court and, smiling coldly, asks him to describe his dead wife&#x27;s face. The blood drains from him.
+
+ACTIVE REFERENCES
+@Lionella: white gown, diamond tiara, frame-right facing frame-left. 100% matches the reference.
+@Cartel: midnight-navy coat, white gloves, frame-left facing frame-right. 100% matches the reference.
+
+LOCATION MAP
+Same positions on the crimson carpet, one meter apart, profiles to camera. Candle key frame-right 3200K, jewel rim behind. Deep background soft-blurred.
+
+FIRST FRAME / BLOCKING
+Frame opens on an insert: her two pale hands closing around his white-gloved hand, centered mid-frame, gown white and coat navy framing the gesture.
+
+FORMAT MODE
+CUT 1 — hands insert. CUT 2 — her close-up, she asks. CUT 3 — his close-up, held to the end.
+
+OPTICS
+CUT 1 at 12° tele-detail on the hands. CUTS 2–3 at 29° portrait compression. No drift mid-segment.
+
+CAMERA
+CUT 1: locked on the hands. CUT 2: locked, subtle low angle on her face. CUT 3: locked, eye-level on him, no movement — the stillness does the work.
+
+ACTION
+CUT 1: her fingers close slowly, a possession more than a touch. CUT 2: the cold smile widens a fraction as she speaks. CUT 3: his face loses color by degrees, lips parting without sound, a single vein rising at his temple; hold him frozen to the final frame.
+
+PERFORMANCE
+Her warmth is a mask stretched over a blade. His terror is silent and internal — eyes fixed on hers, breath stopped.
+
+LIGHTING
+Warm candle key on the hands and faces, cool rim isolating both heads from the darkened hall.
+
+AUDIO
+Her voice, soft, almost tender: &quot;Tell me. What did she look like?&quot; Then the hall ambience drops away to near silence.
+
+STYLE
+Photoreal, high-end romantic fantasy, fine grain.
+
+POSITIVE LOCKS
+Screen direction holds through every cut. Faces and wardrobe match references exactly. The final frame holds on his drained face. The screen stays free of any text.
+</pre></details></td></tr><tr><td class="cut">C09</td><td>차화 예고</td><td>5s</td>
+<td>ECU 옥좌 디테일</td><td>slow drift on empty throne</td><td>@GrandCathedral</td>
+<td class="au">VO: Next — the selection becomes a confession game.</td></tr>
+<tr class="pr"><td colspan="7"><details><summary>Seedance prompt — clip09_preview.txt</summary><pre>SCENE CONTEXT
+A short teaser image for the next episode: the empty gilded throne in the dark cathedral, candles guttering.
+
+ACTIVE REFERENCES
+@GrandCathedral: gilded throne on the marble dais, candelabra, stained glass now dark. 100% matches the reference.
+
+LOCATION MAP
+Foreground: two guttering candle flames soft at the frame edges. Midground: the empty throne centered. Background: dark columns, faint moon-cooled window shapes. Camera low before the dais.
+
+FIRST FRAME / BLOCKING
+Vertical frame: the throne seat centered in the upper two thirds, candle bokeh below.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+18° natural portrait compression, shallow focus on the throne.
+
+CAMERA
+Slow drift upward and forward at 1 km/h toward the throne, ending framed tight on the gilded armrest.
+
+ACTION
+Candle flames lean and gutter in a draft; a thin thread of smoke rises past the throne.
+
+LIGHTING
+Only candle flame light at 3200K, 85% of the frame in warm darkness, gold glints on the throne edges.
+
+AUDIO
+Female voice-over, low: &quot;Next — the selection becomes a confession game.&quot; A single candle hiss.
+
+STYLE
+Photoreal, high-end romantic fantasy, fine grain.
+
+POSITIVE LOCKS
+The hall stays empty of people. The screen stays free of any text or title cards.
+</pre></details></td></tr></table>
+</body></html>

@@ -1,0 +1,40 @@
+SCENE CONTEXT
+The cliffhanger. The duchess answers the duke's veiled threat without flinching — and before he can respond, three slow knocks sound from inside the locked door beside them. Both freeze.
+
+ACTIVE REFERENCES
+@Elara: early-20s woman, chestnut-auburn loose waves, green eyes, deep-emerald velvet gown with black lace collar, silver locket. 100% matches the reference.
+@DukeKael: mid-30s man, black swept-back hair, pale grey-blue eyes, faint scar through the left eyebrow, all-black brocade coat. 100% matches the reference.
+@WestCorridor: gothic stone corridor at night, iron-banded oak door with ornate iron lock plate, moonlight, candle sconces. 100% matches the reference.
+
+LOCATION MAP
+Foreground: @Elara's face sharp on the right of frame looking left. Midground: @DukeKael's dark shoulder and jaw soft on the left edge. The locked door stands just left of them, its iron lock plate catching candlelight. Background: black corridor depth. Camera at head height in the OTS-A position from the previous cut. Light from the sconce candle above and moonlight rim.
+
+FIRST FRAME / BLOCKING
+Frame opens matching the end of the previous cut: close-up on @Elara right of frame, his shoulder left of frame, vertical composition, her face at upper third.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+50° portrait compression, very shallow depth of field on her face, then focus racks hard to the door's lock plate for the final hold.
+
+CAMERA
+Holds on her face through her line and his stillness. At the first knock, a fast whip-pan-and-rack left to the door's iron lock plate, then a dead-still hold on the lock plate for the remaining seconds.
+
+ACTION
+She delivers her line up at him, unblinking. A beat of silence. Then the door beside them shudders almost imperceptibly with three slow, spaced knocks from the inside. Neither character moves; only the candle flames gutter.
+
+PERFORMANCE
+@Elara: defiance hardening to resolve on her line — then her eyes cutting left at the first knock, color draining. @DukeKael's visible jaw tightens in the soft edge of frame. No drift in facial identity.
+
+LIGHTING
+Warm 3000K candle key on her face and on the lock plate, cold 4300K moonlight rim; on the knocks, the candle flames gutter and the shadows breathe once.
+
+AUDIO
+Her voice, quiet and steady: "Then I will die knowing." A beat of dead silence — then three slow knocks from inside the door, deep and deliberate, each spaced a full second apart. Cut to silence after the third.
+
+STYLE
+Photoreal, high-end gothic romance mystery, fine film grain, deep desaturated palette, cold blue with warm candle accents.
+
+POSITIVE LOCKS
+Both match their references exactly in every frame. She stays on the right side of frame, he stays on the left edge. The door stays closed in every frame; nothing is seen opening. The corridor stays empty of anyone else visible. The screen stays free of any text or captions.

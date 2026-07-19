@@ -1,0 +1,39 @@
+SCENE CONTEXT
+The duchess stands before the first locked door in the forbidden corridor. Instead of using a key, she leans in and presses her ear against the cold oak — and hears something impossible from inside.
+
+ACTIVE REFERENCES
+@Elara: early-20s woman, chestnut-auburn loose waves, green eyes, deep-emerald velvet gown with black lace collar, silver locket. 100% matches the reference.
+@WestCorridor: gothic stone corridor at night, iron-banded oak door with an ornate iron lock plate, moonlight from mullioned windows, candle sconces. 100% matches the reference.
+
+LOCATION MAP
+Foreground: the iron-banded oak door filling the left half of frame, its lock plate at center-left. Midground: @Elara on the right of frame, face turned left toward the door. Background: a sliver of the moonlit corridor falling away in soft focus. Camera at head height, tight on the door and her. Light from a sconce candle above frame right and cold moonlight edging from behind her.
+
+FIRST FRAME / BLOCKING
+Frame opens on a medium close-up: her profile on the right third, the door's dark oak grain on the left, her candlestick lowered out of frame, vertical composition with her face at upper third.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+50° portrait compression, very shallow depth of field; the door grain sharp where her ear meets it, corridor dissolved to darkness.
+
+CAMERA
+Pushes in very slowly from medium close-up to extreme close-up as she leans in, ending framed on her ear and cheek against the wood and her one visible eye, holding perfectly still for the final seconds.
+
+ACTION
+She hesitates, then leans left and presses her ear flat against the door, one palm resting on the iron band. Her breathing stills completely. At the whisper, her visible eye snaps wide open.
+
+PERFORMANCE
+Held breath, parted lips, the transition from straining to hear into pure shock in the final second. Candle catch-light in her eye. No drift in facial identity.
+
+LIGHTING
+Warm candle key from upper right at 3000K on her cheek, cold 4300K moonlight rim tracing her hair and the door's iron band, deep shadow inside the door's recesses.
+
+AUDIO
+Near silence: her held breath, wood creak under her palm — then a faint female whisper from behind the door: "Run." No music.
+
+STYLE
+Photoreal, high-end gothic romance mystery, fine film grain, deep desaturated palette, cold blue with warm candle accents.
+
+POSITIVE LOCKS
+Her appearance matches @Elara exactly in every frame. The door stays on the left side of frame, she stays on the right. The door stays closed in every frame. The corridor stays empty of other people. The screen stays free of any text or captions.

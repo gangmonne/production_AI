@@ -1,0 +1,57 @@
+{
+  "project": "one_bite_of_earth",
+  "episode": "EP01",
+  "aspect_ratio_assets": "2:3 (characters, 북 Soul 규격) / 9:16 (locations)",
+  "image_model": "soul",
+  "generation_pattern": { "count": 2, "note": "generate_image count:2 — 검증된 효율 패턴. full UUID 필수. 캐릭터 프롬프트는 프로덕션 북 원문 그대로 (수정 금지). 픽 후 북 권장대로 Soul 캐릭터 학습(베스트 5장 + 각도 변형) 옵션." },
+  "assets": [
+    {
+      "handle": "@HanSeoJin",
+      "type": "character",
+      "role": "한서진 (32) — 외계언어학자, '맛의 배열' 발견자",
+      "status": "pending",
+      "prompt": "Cinematic character reference still, near-future Korean sci-fi black comedy. HAN SEO-JIN, 32-year-old Korean woman, brilliant exhausted xenolinguist. Dark hair loosely tied back with loose strands, thin-framed glasses, wrinkled light shirt under an oversized beige cardigan, government ID lanyard, holding a transparent tablet flat against chest, tired but sharp wide-awake eyes with a faint skeptical expression. She stands facing the camera directly, symmetrical frontal pose, character fully and clearly visible from head to mid-thigh. Plain flat medium-gray seamless studio backdrop, no environment, no props behind subject, even soft cinematic lighting. Cinematic film still, 35mm grain, natural skin texture, clean isolation for character consistency reference."
+    },
+    {
+      "handle": "@OhGangCheol",
+      "type": "character",
+      "role": "오강철 (30대 후반) — 외계문명대응본부장, 미남형·과잉 진지",
+      "status": "pending",
+      "prompt": "Cinematic character reference still, near-future Korean sci-fi black comedy. OH GANG-CHEOL, Korean man in his late 30s, head of the national Alien Response Bureau, ex-military but young and strikingly handsome — sharp jawline, clean short slicked-back hair, well-groomed, tall confident build, leading-man good looks. Crisp dark navy tailored government suit with national emblem pin and ID lanyard, holding a presentation clicker, absurdly grave self-important expression played with charisma. He stands facing the camera directly, symmetrical frontal pose, shoulders squared, character fully and clearly visible from head to mid-thigh. Plain flat medium-gray seamless studio backdrop, no environment, no props behind subject, even soft cinematic lighting. Cinematic film still, 35mm grain, natural skin texture, clean isolation for character consistency reference."
+    },
+    {
+      "handle": "@Inspector",
+      "type": "prop",
+      "role": "감독관 — 흑요석 구체 · 입 모양 균열 (상공 컷 스타일 앵커)",
+      "status": "pending",
+      "prompt": "Cinematic reference still, cosmic sci-fi horror-comedy. THE INSPECTOR — a colossal alien mouth entity rendered as a vast dark monolithic sphere with a single horizontal lip-shaped fissure, no teeth no tongue, lined instead with hundreds of tiny glowing red camera lenses all focusing forward. Ominous yet absurdly deadpan presence. Centered frontal composition. Plain flat medium-gray seamless backdrop, even soft lighting, clean isolation. Cinematic film still, 35mm grain, muted palette."
+    },
+    {
+      "handle": "@SituationRoom",
+      "type": "location",
+      "role": "외계문명대응본부 상황실 (장엄 모드·브리핑·PPT 피날레)",
+      "status": "pending",
+      "prompt": "Vertical architectural plate, interior of a near-future Korean government alien-response situation room at night. A long dark conference table with rows of laptops and paper coffee cups, a wall-sized main screen flanked by smaller monitors showing waveform readouts and a world map, harsh institutional fluorescent panels above mixing with cool blue monitor glow, national emblem on the rear wall, cable clutter and office chairs. Empty of people. Mixed lighting around 5600K fluorescent with blue screen spill, slightly bureaucratic and unglamorous, photorealistic, 35mm film grain, vertical 9:16 composition with the main screen at upper third."
+    },
+    {
+      "handle": "@SeoulSky",
+      "type": "location",
+      "role": "서울 상공 — 정지한 검은 구체 (콜드오픈 제외 상공 컷 전부)",
+      "status": "pending",
+      "prompt": "Vertical plate, night skyline of Seoul seen from street level looking up: dense high-rise buildings with lit windows, the Han river glow at the bottom edge, and dominating the upper sky a colossal matte-black monolithic sphere hovering motionless above the city, faintly reflecting city light on its lower curve, thin clouds passing beneath it. No crack, no glow on the sphere. Empty of people. Sodium street-lamp warmth below against deep blue night sky, photorealistic, 35mm film grain, vertical 9:16 composition with the sphere filling the upper third."
+    },
+    {
+      "handle": "@KeplerPlanet",
+      "type": "location",
+      "role": "케플러-442b — 콜드오픈 삭제 시퀀스",
+      "status": "pending",
+      "prompt": "Vertical plate, majestic space-documentary view of a beautiful teal-turquoise exoplanet with white cloud swirls and thin ice caps, hanging in black space dusted with stars, sunlight raking from the left leaving a crescent shadow. No text, no interface elements. Photorealistic astronomy-documentary look, 35mm film grain, vertical 9:16 composition with the planet centered at upper third."
+    }
+  ],
+  "phase2_assets_deferred": [
+    { "handle": "@KimBora", "for": "EP02 주인공 — 북 프롬프트 ① 원문 사용", "prompt_source": "production book ①" },
+    { "handle": "@MisoHologram", "for": "미소 홀로그램 시각화 (홍보용·선택) — 북 프롬프트 ④", "prompt_source": "production book ④" },
+    { "handle": "@ConvenienceStore", "for": "EP02 편의점 (반복 세트)" },
+    { "handle": "@ScholarTrio", "for": "미국·중국·프랑스 학자 — EP1은 화상회의 모니터 속 제네릭 묘사로 처리, 사전 캐스팅은 EP3 원조 전쟁 전까지" }
+  ]
+}

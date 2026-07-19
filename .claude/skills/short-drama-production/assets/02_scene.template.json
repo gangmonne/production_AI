@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "scene_id": "<PROJECT>_EP01",
+    "title": "<한글 제목> / <English Title>",
+    "runtime_target_sec": 125,
+    "aspect_ratio": "9:16",
+    "video_model": "seedance_2_0",
+    "note": "duration·aspect는 프롬프트 본문이 아니라 힉스필드 생성 파라미터로 설정"
+  },
+  "look": {
+    "palette": "<장르 팔레트 요약>",
+    "wb": { "<location_a>": "<색온도 + 광원>", "<location_b>": "<색온도 + 광원>" },
+    "grammar": "<장르 카메라 문법 — 앵글 규칙, 심도, no on-screen text>"
+  },
+  "screen_direction_lock": {
+    "<Protagonist>": "frame RIGHT, looks LEFT",
+    "<Antagonists>": "frame LEFT, look RIGHT",
+    "rule": "에피소드 전체 불변. OTS 왕복 시에도 유지."
+  },
+  "asset_map": {
+    "@CharacterName": "<한글 설명>",
+    "@LocationName": "<한글 설명>"
+  },
+  "shotlist": [
+    {
+      "cut": "C01",
+      "beat": "콜드 오픈",
+      "dur_sec": 10,
+      "size": "<샷 사이즈 — WS→CU tilt-up 등>",
+      "cam": "<카메라 이동 요약>",
+      "dir": "<방향 락 준수 표기>",
+      "refs": ["@CharacterName", "@LocationName"],
+      "audio": "<VO 또는 대사 — 영어 1문장>",
+      "prompt_file": "03_prompts/clip01_<slug>.txt"
+    }
+  ]
+}

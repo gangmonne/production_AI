@@ -1,0 +1,447 @@
+<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ONE_BITE_OF_EARTH ep01 — Pipeline Board</title><style>
+body{font-family:'Segoe UI',Pretendard,sans-serif;background:#141118;color:#e8e2ee;margin:0;padding:24px}
+h1{font-size:22px;color:#e9c46a} h2{font-size:16px;color:#c9a0dc;border-bottom:1px solid #3a2f47;padding-bottom:6px;margin-top:36px}
+.meta{color:#9a8fb0;font-size:13px;line-height:1.7}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.card{background:#1e1826;border:1px solid #3a2f47;border-radius:10px;padding:12px}
+.hd{display:flex;justify-content:space-between;margin-bottom:6px}
+.tag{color:#e9c46a;font-weight:700;font-family:monospace} .typ{color:#7a6f90;font-size:11px}
+.role{font-size:13px;margin-bottom:8px}
+details summary{cursor:pointer;color:#8ecae6;font-size:12px}
+pre{white-space:pre-wrap;background:#0f0c14;border-radius:8px;padding:10px;font-size:11px;color:#cfc7dd;line-height:1.5}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+th{text-align:left;color:#c9a0dc;border-bottom:1px solid #3a2f47;padding:8px 6px}
+td{padding:8px 6px;border-bottom:1px solid #251d30;vertical-align:top}
+.cut{color:#e9c46a;font-weight:700;font-family:monospace} .au{color:#9a8fb0;font-style:italic}
+tr.pr td{border-bottom:1px solid #3a2f47;background:#181221}
+.lock{background:#231a2e;border-left:3px solid #e76f51;padding:10px 14px;border-radius:6px;font-size:13px;line-height:1.7}
+</style></head><body><h1>ONE_BITE_OF_EARTH — ep01 「별점 테러 / Review Bombing」 · AI 영상 자동화 파이프라인 보드</h1><p class="meta">9:16 세로 · 타깃 140초 · 이미지 soul / 영상 seedance_2_0<br>스크린 방향 락: HanSeoJin = frame RIGHT, looks LEFT · OhGangCheol_Scholars = frame LEFT, look RIGHT · Inspector_Sphere = always UPPER frame (tilt-up grammar) · EP01 전체 불변. 미소(AI)는 보이스 온리 + 포스트 UI. · 화면 내 텍스트 생성 금지</p><div class="lock"><b>실행 전제:</b> 힉스필드 MCP 커넥터를 이 대화에서 켠 뒤 — Phase A(에셋 6종 × count 2) 발주 → 핸들당 1장 픽 → Phase B(11클립 순차 발주). 상세는 RUN_MANIFEST.json.</div><h2>2단계 — 에셋 매니페스트 (6종)</h2><div class="grid"><div class="card"><div class="hd"><span class="tag">@HanSeoJin</span><span class="typ">character</span></div><div class="role">한서진 (32) — 외계언어학자, '맛의 배열' 발견자</div><details><summary>generation prompt</summary><pre>Cinematic character reference still, near-future Korean sci-fi black comedy. HAN SEO-JIN, 32-year-old Korean woman, brilliant exhausted xenolinguist. Dark hair loosely tied back with loose strands, thin-framed glasses, wrinkled light shirt under an oversized beige cardigan, government ID lanyard, holding a transparent tablet flat against chest, tired but sharp wide-awake eyes with a faint skeptical expression. She stands facing the camera directly, symmetrical frontal pose, character fully and clearly visible from head to mid-thigh. Plain flat medium-gray seamless studio backdrop, no environment, no props behind subject, even soft cinematic lighting. Cinematic film still, 35mm grain, natural skin texture, clean isolation for character consistency reference.</pre></details></div><div class="card"><div class="hd"><span class="tag">@OhGangCheol</span><span class="typ">character</span></div><div class="role">오강철 (30대 후반) — 외계문명대응본부장, 미남형·과잉 진지</div><details><summary>generation prompt</summary><pre>Cinematic character reference still, near-future Korean sci-fi black comedy. OH GANG-CHEOL, Korean man in his late 30s, head of the national Alien Response Bureau, ex-military but young and strikingly handsome — sharp jawline, clean short slicked-back hair, well-groomed, tall confident build, leading-man good looks. Crisp dark navy tailored government suit with national emblem pin and ID lanyard, holding a presentation clicker, absurdly grave self-important expression played with charisma. He stands facing the camera directly, symmetrical frontal pose, shoulders squared, character fully and clearly visible from head to mid-thigh. Plain flat medium-gray seamless studio backdrop, no environment, no props behind subject, even soft cinematic lighting. Cinematic film still, 35mm grain, natural skin texture, clean isolation for character consistency reference.</pre></details></div><div class="card"><div class="hd"><span class="tag">@Inspector</span><span class="typ">prop</span></div><div class="role">감독관 — 흑요석 구체 · 입 모양 균열 (상공 컷 스타일 앵커)</div><details><summary>generation prompt</summary><pre>Cinematic reference still, cosmic sci-fi horror-comedy. THE INSPECTOR — a colossal alien mouth entity rendered as a vast dark monolithic sphere with a single horizontal lip-shaped fissure, no teeth no tongue, lined instead with hundreds of tiny glowing red camera lenses all focusing forward. Ominous yet absurdly deadpan presence. Centered frontal composition. Plain flat medium-gray seamless backdrop, even soft lighting, clean isolation. Cinematic film still, 35mm grain, muted palette.</pre></details></div><div class="card"><div class="hd"><span class="tag">@SituationRoom</span><span class="typ">location</span></div><div class="role">외계문명대응본부 상황실 (장엄 모드·브리핑·PPT 피날레)</div><details><summary>generation prompt</summary><pre>Vertical architectural plate, interior of a near-future Korean government alien-response situation room at night. A long dark conference table with rows of laptops and paper coffee cups, a wall-sized main screen flanked by smaller monitors showing waveform readouts and a world map, harsh institutional fluorescent panels above mixing with cool blue monitor glow, national emblem on the rear wall, cable clutter and office chairs. Empty of people. Mixed lighting around 5600K fluorescent with blue screen spill, slightly bureaucratic and unglamorous, photorealistic, 35mm film grain, vertical 9:16 composition with the main screen at upper third.</pre></details></div><div class="card"><div class="hd"><span class="tag">@SeoulSky</span><span class="typ">location</span></div><div class="role">서울 상공 — 정지한 검은 구체 (콜드오픈 제외 상공 컷 전부)</div><details><summary>generation prompt</summary><pre>Vertical plate, night skyline of Seoul seen from street level looking up: dense high-rise buildings with lit windows, the Han river glow at the bottom edge, and dominating the upper sky a colossal matte-black monolithic sphere hovering motionless above the city, faintly reflecting city light on its lower curve, thin clouds passing beneath it. No crack, no glow on the sphere. Empty of people. Sodium street-lamp warmth below against deep blue night sky, photorealistic, 35mm film grain, vertical 9:16 composition with the sphere filling the upper third.</pre></details></div><div class="card"><div class="hd"><span class="tag">@KeplerPlanet</span><span class="typ">location</span></div><div class="role">케플러-442b — 콜드오픈 삭제 시퀀스</div><details><summary>generation prompt</summary><pre>Vertical plate, majestic space-documentary view of a beautiful teal-turquoise exoplanet with white cloud swirls and thin ice caps, hanging in black space dusted with stars, sunlight raking from the left leaving a crescent shadow. No text, no interface elements. Photorealistic astronomy-documentary look, 35mm film grain, vertical 9:16 composition with the planet centered at upper third.</pre></details></div></div><h2>4·5단계 — 컷리스트 + 클립 프롬프트 (11클립 · 합계 133초)</h2><table><tr><th>컷</th><th>비트</th><th>길이</th><th>사이즈</th><th>카메라</th><th>레퍼런스</th><th>오디오</th></tr><tr><td class="cut">C01</td><td>콜드 오픈 — 케플러 삭제</td><td>12s</td><td>WS space → planet dissolve</td><td>solemn documentary slow push-in, then static hold for deletion</td><td>@KeplerPlanet</td><td class="au">Inspector V.O., deepest cosmic bass: The noodles went soggy.</td></tr><tr class="pr"><td colspan="7"><details><summary>clip prompt — clip01_kepler.txt</summary><pre>SCENE CONTEXT
+Cold open of a sci-fi black comedy: a majestic space-documentary view of a beautiful alien planet — which is then calmly deleted from existence, dissolving pixel by pixel, after failing a cosmic food review.
+
+ACTIVE REFERENCES
+@KeplerPlanet: teal-turquoise exoplanet with white cloud swirls, black starfield, raking sunlight from the left. 100% matches the reference.
+
+LOCATION MAP
+Foreground: nothing — clean black space with faint stars. Midground: the planet centered at the upper third of the vertical frame. Background: deep starfield. Camera floating in space, sun off frame left.
+
+FIRST FRAME / BLOCKING
+Frame opens on the serene planet at upper third, crescent shadow on its right limb, vertical composition, documentary stillness.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+Long-lens astronomical compression, everything tack sharp, no depth-of-field falloff — planetarium documentary look.
+
+CAMERA
+A very slow, solemn push-in toward the planet for the first two thirds; the camera then locks perfectly still for the deletion.
+
+ACTION
+The planet hangs in majestic stillness. Then, starting from its edges, it dissolves into fine square pixels that drift apart and fade — an unhurried, administrative erasure, clouds and oceans breaking into blocks — until only empty starfield remains.
+
+PERFORMANCE
+No characters. The performance is the contrast: grandeur played completely straight, deletion played like emptying a recycle bin.
+
+LIGHTING
+Raking sunlight from the left on the planet, pure black space behind, no lens flares.
+
+AUDIO
+Vast solemn orchestral swell — then a colossal, godlike bass voice, deadpan: "The noodles went soggy." The music stops; the deletion plays over a single mundane soft digital chime.
+
+STYLE
+Photoreal space documentary, 35mm film grain, muted majestic palette, near-future Korean sci-fi black comedy played straight.
+
+POSITIVE LOCKS
+The planet matches @KeplerPlanet exactly until the dissolve begins. The dissolve reads as clean squares, calm and orderly. The screen stays free of any text, numbers, star ratings, or interface elements.
+</pre></details></td></tr><tr><td class="cut">C02</td><td>장엄 모드 — 존엄 논쟁</td><td>12s</td><td>WS room → MS screen wall</td><td>slow lateral drift along the table toward the video-call wall</td><td>@SituationRoom</td><td class="au">Scholar on screen, gravely: The signal means time itself is circular. / Second scholar: Agreed — and its center is Beijing.</td></tr><tr class="pr"><td colspan="7"><details><summary>clip prompt — clip02_scholars.txt</summary><pre>SCENE CONTEXT
+Night 43 of first contact. In a Korean government situation room, the world's greatest scholars argue with absolute gravity over a video-call wall — about nothing useful. The comedy is that everyone is deadly serious.
+
+ACTIVE REFERENCES
+@SituationRoom: near-future government situation room at night — long dark conference table, laptops, wall-sized main screen with waveform readouts, fluorescent panels, blue monitor glow. 100% matches the reference.
+
+LOCATION MAP
+Foreground: the long conference table edge with laptops and paper coffee cups. Midground: seated staff silhouettes from behind, facing the screens. Background: the video-call wall on the left of frame — a grid of serious elderly academic faces of various nationalities on separate feeds, waveforms on side monitors. Camera at seated eye height at the table's far end. Fluorescent light above, blue screen spill on faces.
+
+FIRST FRAME / BLOCKING
+Frame opens on a wide of the room, table receding toward the screen wall, the call grid glowing on the upper-left, vertical composition with the main screen at upper third.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+35° compression, moderate depth of field keeping the screen faces legible over the silhouetted room.
+
+CAMERA
+Drifts laterally along the table toward the screen wall, slow and reverent, as if filming a historic summit, settling into a medium framing of the call grid.
+
+ACTION
+On the feeds, scholars gesture with grave precision — one taps a diagram, another raises a finger in objection, a third presses a hand to his chest with wounded dignity. In the room, staff take notes with desperate seriousness. Coffee steam rises.
+
+PERFORMANCE
+Every face on the wall performs maximum academic solemnity; nobody smiles; the absurdity is never acknowledged.
+
+LIGHTING
+Harsh 5600K fluorescents overhead, cool blue monitor spill modeling the faces on screen and the silhouettes below.
+
+AUDIO
+Grave elderly voice with an American accent: "The signal means time itself is circular." A second voice, equally grave, Chinese accent: "Agreed — and its center is Beijing." Low room tone, keyboards, a pen click.
+
+STYLE
+Photoreal, near-future Korean sci-fi black comedy played straight, documentary gravity, 35mm grain, fluorescent-and-monitor-blue palette.
+
+POSITIVE LOCKS
+The room matches @SituationRoom exactly. The scholars exist only inside the video-call screens. All monitor content stays abstract waveforms and maps. The screen stays free of any readable text, captions, or subtitles.
+</pre></details></td></tr><tr><td class="cut">C03</td><td>한서진의 발견</td><td>11s</td><td>MS rise → MCU</td><td>she stands into frame; push-in as the room turns to her</td><td>@HanSeoJin @SituationRoom</td><td class="au">SeoJin: This isn't grammar — it's an arrangement of flavors.</td></tr><tr class="pr"><td colspan="7"><details><summary>clip prompt — clip03_discovery.txt</summary><pre>SCENE CONTEXT
+In the corner of the situation room, a young exhausted xenolinguist has been glaring at the waveform for hours. She suddenly stands and tells the world's assembled experts that the alien signal is not grammar at all — it is an arrangement of flavors. The room goes silent.
+
+ACTIVE REFERENCES
+@HanSeoJin: 32-year-old Korean woman, dark hair loosely tied back with loose strands, thin-framed glasses, wrinkled light shirt under an oversized beige cardigan, government ID lanyard, transparent tablet. 100% matches the reference.
+@SituationRoom: government situation room at night, waveform monitors, fluorescent and blue light. 100% matches the reference.
+
+LOCATION MAP
+Foreground: her cluttered corner desk — tablet, cold coffee, tangled cables. Midground: @HanSeoJin on the right of frame. Background: the room and screen wall falling away soft to the left. Camera at desk height in front of her. Fluorescent overhead, waveform monitor glow from her left.
+
+FIRST FRAME / BLOCKING
+Frame opens on a medium shot of her seated at the corner desk on the right third, hunched toward an off-frame monitor, vertical composition.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+40° compression, shallow depth of field, the room dissolving to soft bokeh behind her.
+
+CAMERA
+Holds as she stands abruptly into a medium close-up, then pushes in slightly during her line, ending on her face at upper third.
+
+ACTION
+She stares, mouths a silent calculation, then shoves her chair back and stands in one abrupt motion, tablet clutched to her chest, and delivers the line to the room on her left. After the line, she holds still in the ringing silence, eyes darting once.
+
+PERFORMANCE
+Exhausted certainty — not triumph. Glasses catching monitor glow, jaw set, the faint terror of being right about something ridiculous. No drift in facial identity.
+
+LIGHTING
+5600K fluorescent key from above, cyan waveform glow from her left as fill, blue room spill behind.
+
+AUDIO
+Her voice, quick and sure over a murmuring room that cuts to dead silence: "This isn't grammar — it's an arrangement of flavors." A chair squeak, then nothing.
+
+STYLE
+Photoreal, near-future Korean sci-fi black comedy played straight, 35mm grain, fluorescent-and-monitor-blue palette.
+
+POSITIVE LOCKS
+Her appearance matches @HanSeoJin exactly in every frame. She stays on the right side of frame, facing left toward the room. All monitor content stays abstract. The screen stays free of any text or captions.
+</pre></details></td></tr><tr><td class="cut">C04</td><td>생중계 개시</td><td>12s</td><td>MS GangCheol → WS room rising</td><td>push-in on GangCheol, then widen as everyone stands</td><td>@OhGangCheol @SituationRoom</td><td class="au">GangCheol, standing: Connect the worldwide broadcast — this moment goes in the textbooks.</td></tr><tr class="pr"><td colspan="7"><details><summary>clip prompt — clip04_broadcast.txt</summary><pre>SCENE CONTEXT
+The bureau chief — young, handsome, catastrophically self-important — orders humanity's first alien message broadcast live to the entire world. The room rises to its feet in patriotic awe. History is about to be made, badly.
+
+ACTIVE REFERENCES
+@OhGangCheol: Korean man late 30s, strikingly handsome, sharp jawline, slicked-back short hair, crisp dark navy government suit with emblem pin and lanyard. 100% matches the reference.
+@SituationRoom: government situation room at night, main screen wall, fluorescent and blue light. 100% matches the reference.
+
+LOCATION MAP
+Foreground: the conference table edge. Midground: @OhGangCheol on the left of frame rising from the head seat, facing right toward his staff. Background: the main screen wall glowing, staff at their stations. Camera across the table at chest height. Fluorescent key above, screen glow behind him.
+
+FIRST FRAME / BLOCKING
+Frame opens on a medium shot of him seated at the head of the table on the left third, hands folded like a statesman, vertical composition.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+40° compression, shallow depth of field on him, widening focus as the room rises.
+
+CAMERA
+Pushes in as he stands and delivers the order, then eases back and widens as the entire room rises to its feet around him in solemn unison.
+
+ACTION
+He slams both palms on the table and rises, buttoning his jacket in one practiced motion, chin high. Around him, staff stand one after another like a wave, hands over hearts, several visibly moved to tears.
+
+PERFORMANCE
+@OhGangCheol plays it like a wartime address — grave, luminous, absolutely convinced of his own place in history. Charismatic, not clownish. No drift in facial identity.
+
+LIGHTING
+5600K fluorescent key, blue main-screen glow rimming his navy suit, warm desk-lamp accents on the table.
+
+AUDIO
+His voice, deep with destiny: "Connect the worldwide broadcast — this moment goes in the textbooks." Chairs scraping as the room rises, a swelling orchestral cue beginning underneath.
+
+STYLE
+Photoreal, near-future Korean sci-fi black comedy played straight, 35mm grain, fluorescent-and-monitor-blue palette.
+
+POSITIVE LOCKS
+His appearance matches @OhGangCheol exactly in every frame. He stays on the left side of frame, facing right. All screens stay abstract. The screen stays free of any text or captions.
+</pre></details></td></tr><tr><td class="cut">C05</td><td>번역 참사 1</td><td>12s</td><td>WS solemn tableau → freeze</td><td>locked symmetrical wide, nobody moves</td><td>@SituationRoom @OhGangCheol</td><td class="au">Miso, serene AI voice: 'It has been a long journey. I want something warm and crispy.'</td></tr><tr class="pr"><td colspan="7"><details><summary>clip prompt — clip05_translation.txt</summary><pre>SCENE CONTEXT
+Live to 4.7 billion viewers, the AI reads humanity's first translated alien sentence. The room stands in reverent tableau, hands over hearts, tears in eyes — and the message turns out to be a food-delivery request. Everyone freezes mid-reverence.
+
+ACTIVE REFERENCES
+@SituationRoom: government situation room at night, main screen wall, long table, fluorescent and blue light. 100% matches the reference.
+@OhGangCheol: handsome late-30s bureau chief in navy government suit. 100% matches the reference.
+
+LOCATION MAP
+Foreground: the table with laptops. Midground: the standing room in solemn rows, @OhGangCheol at the head on the left of frame, all faces turned up-left toward the main screen. Background: the main screen glowing with a slowly pulsing abstract waveform. Camera at the back of the room, elevated slightly. Fluorescents dimmed for the broadcast, screen glow dominant.
+
+FIRST FRAME / BLOCKING
+Frame opens on a locked symmetrical wide of the standing tableau, main screen at upper third, @OhGangCheol left-of-center with hand over heart, vertical composition.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+30° compression, deep enough focus to hold the whole tableau; ceremonial symmetry.
+
+CAMERA
+Locked off completely. The camera does not move at all — the joke is the tableau curdling inside a formal frame.
+
+ACTION
+The room holds a reverent stillness through the first sentence — several people close their eyes, one wipes a tear. On the second sentence, the reverence curdles: hands stay frozen over hearts, eyes begin flicking sideways at each other, one head tilts a few degrees. Nobody dares move.
+
+PERFORMANCE
+Collective emotional whiplash performed in micro-movements only: throats swallowing, eyes darting, a jaw slowly falling open. @OhGangCheol holds his statesman pose while his certainty visibly drains. No drift in facial identity.
+
+LIGHTING
+Dimmed fluorescents, dominant cool blue screen glow washing the upturned faces, thin warm table accents.
+
+AUDIO
+A serene genderless AI voice, perfectly calm: "It has been a long journey. I want something warm and crispy." A grand orchestral swell that falters and dies awkwardly mid-phrase after the second sentence.
+
+STYLE
+Photoreal, near-future Korean sci-fi black comedy played straight, 35mm grain, ceremonial symmetry.
+
+POSITIVE LOCKS
+The room matches @SituationRoom exactly; @OhGangCheol matches his reference. The main screen shows only an abstract pulsing waveform. Nobody fully breaks the tableau. The screen stays free of any text or captions.
+</pre></details></td></tr><tr><td class="cut">C06</td><td>번역 참사 2 — 주차</td><td>11s</td><td>MCU GangCheol / cutaway faces</td><td>static MCU, dead-air holds between lines</td><td>@OhGangCheol @SituationRoom</td><td class="au">Miso: Postscript — 'Is there parking?' / GangCheol, flat: Kill the broadcast.</td></tr><tr class="pr"><td colspan="7"><details><summary>clip prompt — clip06_parking.txt</summary><pre>SCENE CONTEXT
+The live-broadcast disaster completes itself: the alien message ends with a postscript asking about parking. The bureau chief, dead-eyed, orders the broadcast killed — 4.7 billion people have already seen it.
+
+ACTIVE REFERENCES
+@OhGangCheol: handsome late-30s bureau chief, navy government suit, emblem pin. 100% matches the reference.
+@SituationRoom: government situation room at night, dimmed for broadcast, blue screen glow. 100% matches the reference.
+
+LOCATION MAP
+Foreground: clean space to the table edge. Midground: @OhGangCheol on the left of frame in medium close-up, still half-frozen in his hand-over-heart pose, facing right. Background: stunned staff soft-focus at their stations, screen glow. Camera at his eye level, square on. Blue screen light from behind camera, dim fluorescents above.
+
+FIRST FRAME / BLOCKING
+Frame opens on a static medium close-up: @OhGangCheol left of frame, hand still on his chest, eyes fixed on the off-frame screen, vertical composition with his face at upper third.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+50° portrait compression, shallow depth of field, background staff dissolved to blue bokeh.
+
+CAMERA
+Locked off. No movement at all through the entire clip — dead air is the punchline's frame.
+
+ACTION
+He does not move through the AI's postscript. A long beat. His hand slides slowly off his chest and hangs at his side. Another beat. He delivers his order almost without moving his lips, then closes his eyes for one full second.
+
+PERFORMANCE
+The five stages of grief compressed into a motionless face: hope dying behind the eyes, jaw tightening, a single slow blink. Deadpan absolute. No drift in facial identity.
+
+LIGHTING
+Cool blue screen key from front, dim 5600K fluorescent top light, his navy suit nearly merging with the shadows.
+
+AUDIO
+The serene AI voice: "Postscript — 'Is there parking?'" Three full seconds of dead silence. Then his voice, flat and quiet: "Kill the broadcast." A distant phone starts ringing.
+
+STYLE
+Photoreal, near-future Korean sci-fi black comedy played straight, 35mm grain, blue-wash deadpan.
+
+POSITIVE LOCKS
+His appearance matches @OhGangCheol exactly in every frame. He stays on the left side of frame facing right. The camera never moves. The screen stays free of any text or captions.
+</pre></details></td></tr><tr><td class="cut">C07</td><td>엔트로피 관리법 브리핑</td><td>13s</td><td>MCU SeoJin ↔ screen</td><td>slow push on SeoJin listening, screen glow on her glasses</td><td>@HanSeoJin @SituationRoom</td><td class="au">Miso: Civilizations lie, art exaggerates, mathematics copies itself — taste does not lie.</td></tr><tr class="pr"><td colspan="7"><details><summary>clip prompt — clip07_briefing.txt</summary><pre>SCENE CONTEXT
+The AI briefs the room on the Galactic Entropy Management Act: low-value planets are recycled first, and the sole metric of a civilization's worth is taste. The xenolinguist listens, appalled, as the cosmic bureaucracy explains itself with perfect calm.
+
+ACTIVE REFERENCES
+@HanSeoJin: 32-year-old Korean woman, glasses, loose dark hair, beige cardigan over wrinkled shirt, lanyard. 100% matches the reference.
+@SituationRoom: government situation room at night, waveform monitors, fluorescent and blue light. 100% matches the reference.
+
+LOCATION MAP
+Foreground: the table edge with her transparent tablet lying flat. Midground: @HanSeoJin on the right of frame, face turned left toward the off-frame main screen. Background: the room soft behind her, screen glow pulsing gently with the AI's voice. Camera at her eye level, slightly left of square. Screen glow key from her left, fluorescents above.
+
+FIRST FRAME / BLOCKING
+Frame opens on a medium close-up: @HanSeoJin right of frame looking left, screen light rippling on her glasses, vertical composition with her face at upper third.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+50° portrait compression, very shallow depth of field, the room a blue haze behind her.
+
+CAMERA
+A single slow push-in toward her face for the full duration, arriving at a tight close-up as the AI's last clause lands.
+
+ACTION
+She listens without moving, the pulsing screen light on her lenses. At "art exaggerates" her eyebrows draw together; at "taste does not lie" her lips part to object — and stop. She exhales through her nose instead, defeated by the logic.
+
+PERFORMANCE
+Intellectual horror in small increments: the face of a linguist watching the universe turn out to be a review platform. Tired, sharp, silently furious. No drift in facial identity.
+
+LIGHTING
+Cool blue screen key from her left pulsing softly with the voice, 5600K fluorescent top light, warm desk accent below.
+
+AUDIO
+The serene AI voice, unhurried: "Civilizations lie, art exaggerates, mathematics copies itself — taste does not lie." Low server-room hum, one pen dropped somewhere in the silence after.
+
+STYLE
+Photoreal, near-future Korean sci-fi black comedy played straight, 35mm grain, fluorescent-and-monitor-blue palette.
+
+POSITIVE LOCKS
+Her appearance matches @HanSeoJin exactly in every frame. She stays on the right side of frame looking left. All monitor content stays abstract. The screen stays free of any text or captions.
+</pre></details></td></tr><tr><td class="cut">C08</td><td>격추 문답</td><td>13s</td><td>MCU OTS 왕복</td><td>locked OTS pair GangCheol/SeoJin, deadpan rhythm</td><td>@OhGangCheol @HanSeoJin @SituationRoom</td><td class="au">GangCheol: Can we shoot it down? / Miso: The guest uses asteroids as an umbrella — when bored.</td></tr><tr class="pr"><td colspan="7"><details><summary>clip prompt — clip08_shootdown.txt</summary><pre>SCENE CONTEXT
+The bureau chief asks the only question the military mind has: can we shoot it down? The AI's answer establishes the power gap between humanity and the guest with one bored image. The xenolinguist watches her superior take the alien's side.
+
+ACTIVE REFERENCES
+@OhGangCheol: handsome late-30s bureau chief, navy government suit. 100% matches the reference.
+@HanSeoJin: 32-year-old xenolinguist, glasses, beige cardigan. 100% matches the reference.
+@SituationRoom: government situation room at night. 100% matches the reference.
+
+LOCATION MAP
+Two fixed over-the-shoulder setups across the corner of the conference table: @OhGangCheol on the left of frame looking right, @HanSeoJin on the right of frame looking left, the glowing screen wall soft in his background. Camera trades between behind-her-shoulder and behind-his-shoulder at seated head height. Fluorescent top light, blue screen spill.
+
+FIRST FRAME / BLOCKING
+Frame opens over her shoulder onto him: @OhGangCheol sharp on the left third, leaning forward with command intensity, her cardigan shoulder soft on the right edge, vertical composition.
+
+FORMAT MODE
+Two fixed over-the-shoulder setups alternating with the dialogue — his question, then her reaction on the answer — no other angles.
+
+OPTICS
+50° portrait compression both setups, shallow depth of field, matched eyelines across the table corner.
+
+CAMERA
+Locked OTS pair. Setup A (on him) holds through his question, delivered like a war council. Setup B (over his shoulder onto her) holds through the AI's answer, all of it playing on her face.
+
+ACTION
+He leans in, laces his fingers, and asks with grave military economy. On the answer, she closes her eyes briefly; his head tilts with genuine professional interest — the wrong reaction — and she turns to stare at him.
+
+PERFORMANCE
+@OhGangCheol: command gravitas sliding into boyish fascination. @HanSeoJin: the exhausted stare of the only adult in the room. Both deadpan; nobody plays the joke. No drift in facial identity.
+
+LIGHTING
+5600K fluorescent key, blue screen rim on his suit, softer cyan fill on her from the waveform monitors.
+
+AUDIO
+His voice, clipped: "Can we shoot it down?" The serene AI voice: "The guest uses asteroids as an umbrella — when bored." Room tone, one nervous cough.
+
+STYLE
+Photoreal, near-future Korean sci-fi black comedy played straight, 35mm grain, fluorescent-and-monitor-blue palette.
+
+POSITIVE LOCKS
+Both match their references exactly in every frame. He stays on the left of frame looking right, she stays on the right looking left, in both setups. The screen stays free of any text or captions.
+</pre></details></td></tr><tr><td class="cut">C09</td><td>초신성 에스프레소</td><td>12s</td><td>MCU GangCheol sit → CU SeoJin</td><td>he slowly sits; whip to her exasperation</td><td>@OhGangCheol @HanSeoJin @SituationRoom</td><td class="au">Miso: Yesterday the guest took a supernova in his espresso. / GangCheol, sitting down slowly: ...That's actually kind of cool.</td></tr><tr class="pr"><td colspan="7"><details><summary>clip prompt — clip09_espresso.txt</summary><pre>SCENE CONTEXT
+The AI mentions, in passing, that the guest drank a supernova in his espresso yesterday. The bureau chief — who was just asking about nuclear options — slowly sits down and concedes that this is, honestly, kind of cool. The xenolinguist's patience dies.
+
+ACTIVE REFERENCES
+@OhGangCheol: handsome late-30s bureau chief, navy government suit. 100% matches the reference.
+@HanSeoJin: 32-year-old xenolinguist, glasses, beige cardigan. 100% matches the reference.
+@SituationRoom: government situation room at night. 100% matches the reference.
+
+LOCATION MAP
+Foreground: the corner of the conference table. Midground: @OhGangCheol on the left of frame standing beside his chair, @HanSeoJin seated on the right of frame. Background: screen wall glow, staff soft-focus. Camera across the table at chest height, holding both. Fluorescent top light, blue screen spill from the left.
+
+FIRST FRAME / BLOCKING
+Frame opens on a two-shot: him standing left of frame mid-thought, her seated right of frame watching him with dread, vertical composition.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+40° compression, shallow depth of field holding both faces, background dissolved to blue.
+
+CAMERA
+Holds the two-shot as he sinks into his chair in slow motion of thought; on her explosion the camera makes a small sharp push toward her.
+
+ACTION
+On the AI's line, he pauses, gazes into the middle distance, and lowers himself into his chair with the gravity of a man re-evaluating the universe, nodding faintly with respect. She watches this happen, tablet gripped whitening, then snaps toward him.
+
+PERFORMANCE
+@OhGangCheol: sincere, unguarded admiration — the schoolboy under the statesman. @HanSeoJin: disbelief boiling into her one shouted syllable, glasses flashing as she turns. No drift in facial identity.
+
+LIGHTING
+5600K fluorescent key, cool blue screen spill from the left, warm table accent between them.
+
+AUDIO
+The serene AI voice: "Yesterday the guest took a supernova in his espresso." A beat. His voice, hushed with awe as he sits: "...That's actually kind of cool." Her voice, sharp: "Director!"
+
+STYLE
+Photoreal, near-future Korean sci-fi black comedy played straight, 35mm grain, fluorescent-and-monitor-blue palette.
+
+POSITIVE LOCKS
+Both match their references exactly in every frame. He stays on the left side of frame, she stays on the right. The screen stays free of any text or captions.
+</pre></details></td></tr><tr><td class="cut">C10</td><td>심사 개시 — 구체 균열</td><td>13s</td><td>WS street tilt-up → sphere cracks</td><td>tilt-up from crowd-less street to the sphere splitting into a mouth fissure</td><td>@SeoulSky @Inspector</td><td class="au">Inspector, vast and calm: The inspection of Earth begins — seven days.</td></tr><tr class="pr"><td colspan="7"><details><summary>clip prompt — clip10_fissure.txt</summary><pre>SCENE CONTEXT
+The inspection begins. Above Seoul, the vast black sphere that has hung motionless for 43 days finally moves: a horizontal fissure splits open across its face like a colossal mouth, glowing from within, and a voice the whole planet can hear declares the seven-day judgment of Earth.
+
+ACTIVE REFERENCES
+@SeoulSky: night skyline of Seoul from street level, dense lit high-rises, colossal matte-black sphere dominating the upper sky. 100% matches the reference.
+@Inspector: vast dark monolithic sphere with a single horizontal lip-shaped fissure lined with hundreds of tiny glowing red camera lenses. 100% matches the reference for the opened state.
+
+LOCATION MAP
+Foreground: an empty night street between high-rises, sodium lamps, parked cars. Midground: the building canyon framing the sky. Background/upper frame: the black sphere filling the upper third. Camera at street level shooting steeply upward. Sodium warmth below, deep blue night above.
+
+FIRST FRAME / BLOCKING
+Frame opens low on the empty street, buildings converging upward, the sealed black sphere at the very top of frame, vertical composition built for a tilt-up.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+28° wide compression with strong vertical convergence, deep focus — the whole canyon and sphere sharp.
+
+CAMERA
+Tilts up slowly from the street to frame the sphere fully in the upper two thirds, then locks. The fissure event plays in the locked frame.
+
+ACTION
+The sphere hangs sealed for a breath. Then a hairline seam of golden light draws itself horizontally across its face and yawns open into a vast lip-shaped fissure — no teeth, no tongue — its interior lined with hundreds of tiny red lenses that ignite in ripples, all focusing downward. Thin clouds around it recoil outward in a slow ring.
+
+PERFORMANCE
+No human characters. The sphere performs: unhurried, administrative, absolutely indifferent — a cosmic official opening a case file.
+
+LIGHTING
+Sodium street warmth at the bottom of frame, deep blue night sky, and the golden fissure glow becoming the dominant key as it opens, red lens points pricking through.
+
+AUDIO
+A vast, calm voice from everywhere at once: "The inspection of Earth begins — seven days." Under it, city-wide car alarms starting in waves, distant screams, wind.
+
+STYLE
+Photoreal, cosmic sci-fi horror-comedy played straight, 35mm grain, sodium-and-gold against night blue.
+
+POSITIVE LOCKS
+The sphere matches @SeoulSky sealed and transitions to match @Inspector opened, staying in the upper frame throughout. The street stays empty of visible people. The screen stays free of any text, numbers, star ratings, or interface elements.
+</pre></details></td></tr><tr><td class="cut">C11</td><td>클리프행어 — PPT 0.1 하락</td><td>12s</td><td>MS GangCheol at projector → CUT TO BLACK</td><td>static as he opens the laptop, beat, hold for post D-count</td><td>@OhGangCheol @SituationRoom</td><td class="au">Miso: The guest lowered the rating by zero point one. — GangCheol: We haven't even started?! — Miso: We believe it was the font.</td></tr><tr class="pr"><td colspan="7"><details><summary>clip prompt — clip11_font.txt</summary><pre>SCENE CONTEXT
+The cliffhanger. While the planet panics, the bureau chief responds the only way he knows: he opens a laptop and starts a PowerPoint strategy presentation. The alien immediately lowers Earth's rating — because of the font. Cut to black.
+
+ACTIVE REFERENCES
+@OhGangCheol: handsome late-30s bureau chief, navy government suit, presentation clicker. 100% matches the reference.
+@SituationRoom: government situation room at night, projector light, long table. 100% matches the reference.
+
+LOCATION MAP
+Foreground: the conference table with an open laptop. Midground: @OhGangCheol on the left of frame standing beside the table, facing right toward an off-frame projection wall, clicker in hand. Background: staff soft-focus, room dim, the projector beam cutting the air with dust. Camera across the table at chest height. Projector glow as key from off-frame right, dim fluorescents.
+
+FIRST FRAME / BLOCKING
+Frame opens on a medium shot: @OhGangCheol left of frame snapping the laptop open with resolve, the projector beam flaring across the frame, vertical composition with his face at upper third.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+40° compression, shallow depth of field on him, projector dust motes sparkling in the beam.
+
+CAMERA
+Locked off through the setup and the first line; on his outburst a tiny jolt-push toward him; then holds his frozen face for a full final second before the clip ends on him mid-despair.
+
+ACTION
+He opens the laptop, squares his shoulders, raises the clicker toward the off-frame wall with the bearing of a general unveiling a war plan. On the AI's first line his arm stops mid-air. On his own line he whips toward the off-frame screen. On the AI's second line he stands perfectly still, clicker drooping, eyes going hollow.
+
+PERFORMANCE
+Resolve → disbelief → hollow acceptance in three clean beats, all in the face and the slowly sinking clicker arm. Played dead straight. No drift in facial identity.
+
+LIGHTING
+White projector key from off-frame right raking his face, dim 5600K fluorescents, blue monitor spill behind.
+
+AUDIO
+The serene AI voice: "The guest lowered the rating by zero point one." His voice, cracking upward: "We haven't even started?!" The AI, perfectly calm: "We believe it was the font." Silence. A single projector fan whir.
+
+STYLE
+Photoreal, near-future Korean sci-fi black comedy played straight, 35mm grain, projector-beam chiaroscuro.
+
+POSITIVE LOCKS
+His appearance matches @OhGangCheol exactly in every frame. He stays on the left side of frame facing right. The projection wall and all screens stay off-frame or abstract — no readable slides. The screen stays free of any text or captions.
+</pre></details></td></tr></table></body></html>

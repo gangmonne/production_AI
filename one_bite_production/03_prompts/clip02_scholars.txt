@@ -1,0 +1,38 @@
+SCENE CONTEXT
+Night 43 of first contact. In a Korean government situation room, the world's greatest scholars argue with absolute gravity over a video-call wall — about nothing useful. The comedy is that everyone is deadly serious.
+
+ACTIVE REFERENCES
+@SituationRoom: near-future government situation room at night — long dark conference table, laptops, wall-sized main screen with waveform readouts, fluorescent panels, blue monitor glow. 100% matches the reference.
+
+LOCATION MAP
+Foreground: the long conference table edge with laptops and paper coffee cups. Midground: seated staff silhouettes from behind, facing the screens. Background: the video-call wall on the left of frame — a grid of serious elderly academic faces of various nationalities on separate feeds, waveforms on side monitors. Camera at seated eye height at the table's far end. Fluorescent light above, blue screen spill on faces.
+
+FIRST FRAME / BLOCKING
+Frame opens on a wide of the room, table receding toward the screen wall, the call grid glowing on the upper-left, vertical composition with the main screen at upper third.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+35° compression, moderate depth of field keeping the screen faces legible over the silhouetted room.
+
+CAMERA
+Drifts laterally along the table toward the screen wall, slow and reverent, as if filming a historic summit, settling into a medium framing of the call grid.
+
+ACTION
+On the feeds, scholars gesture with grave precision — one taps a diagram, another raises a finger in objection, a third presses a hand to his chest with wounded dignity. In the room, staff take notes with desperate seriousness. Coffee steam rises.
+
+PERFORMANCE
+Every face on the wall performs maximum academic solemnity; nobody smiles; the absurdity is never acknowledged.
+
+LIGHTING
+Harsh 5600K fluorescents overhead, cool blue monitor spill modeling the faces on screen and the silhouettes below.
+
+AUDIO
+Grave elderly voice with an American accent: "The signal means time itself is circular." A second voice, equally grave, Chinese accent: "Agreed — and its center is Beijing." Low room tone, keyboards, a pen click.
+
+STYLE
+Photoreal, near-future Korean sci-fi black comedy played straight, documentary gravity, 35mm grain, fluorescent-and-monitor-blue palette.
+
+POSITIVE LOCKS
+The room matches @SituationRoom exactly. The scholars exist only inside the video-call screens. All monitor content stays abstract waveforms and maps. The screen stays free of any readable text, captions, or subtitles.

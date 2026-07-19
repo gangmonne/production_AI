@@ -1,0 +1,39 @@
+SCENE CONTEXT
+Episode teaser. A single ominous image: the first locked door of the west wing at night, and a hand bringing an antique key toward the ornate iron lock.
+
+ACTIVE REFERENCES
+@WestCorridor: iron-banded oak door with an ornate iron lock plate, gothic stone corridor at night, candle sconce glow, moonlight. 100% matches the reference.
+@FiveKeys: five ornate antique iron keys on a heavy black iron ring, dark oxidized metal with faint gold inlay. 100% matches the reference.
+
+LOCATION MAP
+Foreground: a woman's hand entering from frame right holding one key of the ring, the other four keys hanging below. Midground: the iron lock plate of the door filling the center of frame. Background: dark oak grain and iron banding falling into shadow. Camera square to the lock plate at its height, very close. Light from a candle sconce upper right and a thin blade of moonlight from the left.
+
+FIRST FRAME / BLOCKING
+Frame opens on an extreme close-up of the empty lock plate centered, keyhole dark, vertical composition with the lock at upper third and shadowed oak below.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+50° macro compression, very shallow depth of field, the lock plate razor sharp, everything else velvet dark.
+
+CAMERA
+Drifts forward almost imperceptibly toward the keyhole for the whole shot; no other movement.
+
+ACTION
+The hand with the key enters slowly from frame right, brings the key's tip to the mouth of the keyhole, and stops a hair's breadth from insertion. The final frame holds with the key touching but not turned.
+
+PERFORMANCE
+Only the hand performs: a slight tremble in the fingers, then steadying. The four hanging keys sway once and settle.
+
+LIGHTING
+Warm 3000K candle accent from upper right glinting on the key's gold inlay, cold 4300K moonlight blade raking the lock plate's relief from the left, deep black surround.
+
+AUDIO
+Female voice-over, hushed: "Next — the first door opens." The single soft scrape of key tip on iron, then silence.
+
+STYLE
+Photoreal, high-end gothic romance mystery, fine film grain, deep desaturated palette, cold blue with warm candle accents.
+
+POSITIVE LOCKS
+The key ring holds exactly five keys in every frame. The lock is never turned and the door never opens. No face is visible. The screen stays free of any text or captions.

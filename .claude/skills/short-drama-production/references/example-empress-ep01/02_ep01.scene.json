@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "scene_id": "EMP_EP01",
+    "title": "일곱 후보의 정렬 / The Seven Candidates",
+    "runtime_target_sec": 125,
+    "aspect_ratio": "9:16",
+    "video_model": "seedance_2_0",
+    "note": "duration·aspect는 프롬프트 본문이 아니라 힉스필드 생성 파라미터로 설정"
+  },
+  "look": {
+    "palette": "marble white + gold + jewel-tone stained glass; flashback = cold moonlight low-key",
+    "wb": { "cathedral": "3200K base + colored window spill", "bedchamber": "4000K mixed" },
+    "grammar": "Lionella CU = subtle low angle (power); perpetrator reactions = eye-level to high angle; shallow DOF on all dialogue CUs; no on-screen text"
+  },
+  "screen_direction_lock": {
+    "Lionella": "frame RIGHT, looks LEFT",
+    "Candidates_Cartel": "frame LEFT, look RIGHT",
+    "rule": "EP01 전체 불변. OTS 왕복 시에도 유지."
+  },
+  "asset_map": {
+    "@Lionella": "라이오넬라 (여주)",
+    "@Cartel": "카르텔 공작 (전남편)",
+    "@Alexis": "황제 알렉시스",
+    "@Valtor": "발토르 (시아버지)",
+    "@Leo": "레오 (시동생)",
+    "@GrandCathedral": "황실 대성당·옥좌홀",
+    "@Bedchamber": "황후 침실 (플래시백)"
+  },
+  "shotlist": [
+    { "cut": "C01", "beat": "콜드 오픈", "dur_sec": 10, "size": "WS→CU tilt-up", "cam": "low tilt-up along body", "dir": "Lionella center", "refs": ["@Lionella", "@GrandCathedral"], "audio": "VO: Five years ago today, I became Empress here.", "prompt_file": "03_prompts/clip01_cold_open.txt" },
+    { "cut": "C02", "beat": "독살 플래시백", "dur_sec": 8, "size": "MS→ECU insert", "cam": "handheld drift + insert on hidden hand", "dir": "Cartel frame-left", "refs": ["@Lionella", "@Cartel", "@Bedchamber"], "audio": "VO: The poison came from my husband.", "prompt_file": "03_prompts/clip02_flashback.txt" },
+    { "cut": "C03", "beat": "회귀·선언", "dur_sec": 10, "size": "WS low-angle throne", "cam": "slow push-in on Alexis rising", "dir": "Alexis upper frame, Lionella foreground back", "refs": ["@Alexis", "@Lionella", "@GrandCathedral"], "audio": "Alexis: I grant you the right to choose your own consort.", "prompt_file": "03_prompts/clip03_decree.txt" },
+    { "cut": "C04", "beat": "일곱 후보 트래킹", "dur_sec": 15, "size": "MS lateral tracking", "cam": "slow lateral track along the line, POV-adjacent", "dir": "candidates frame-left facing right", "refs": ["@Valtor", "@Leo", "@Cartel", "@GrandCathedral"], "audio": "VO: You first. I will kill you slowly.", "prompt_file": "03_prompts/clip04_tracking.txt" },
+    { "cut": "C05", "beat": "시선 교차", "dur_sec": 10, "size": "CU/CU OTS 왕복", "cam": "OTS pair, eyeline match", "dir": "lock 유지", "refs": ["@Lionella", "@Cartel"], "audio": "Alexis(off): If one of them holds your heart, speak now.", "prompt_file": "03_prompts/clip05_eyes_meet.txt" },
+    { "cut": "C06", "beat": "하강·통과·정지", "dur_sec": 12, "size": "FS follow → MS", "cam": "steadicam follow behind shoulder", "dir": "Lionella moves R→L past the line", "refs": ["@Lionella", "@Valtor", "@Leo", "@Cartel", "@GrandCathedral"], "audio": "Lionella: Duke.", "prompt_file": "03_prompts/clip06_walk_line.txt" },
+    { "cut": "C07", "beat": "첫 질문", "dur_sec": 15, "size": "MCU OTS 왕복", "cam": "locked OTS pair, subtle low on Lionella", "dir": "lock 유지", "refs": ["@Lionella", "@Cartel"], "audio": "L: Have you ever been married? / C: ...Once. She died five years ago.", "prompt_file": "03_prompts/clip07_question.txt" },
+    { "cut": "C08", "beat": "클리프행어", "dur_sec": 12, "size": "CU hands insert → CU faces", "cam": "insert then rise to faces, hold", "dir": "lock 유지", "refs": ["@Lionella", "@Cartel"], "audio": "L: Tell me. What did she look like?", "prompt_file": "03_prompts/clip08_cliffhanger.txt" },
+    { "cut": "C09", "beat": "차화 예고", "dur_sec": 5, "size": "ECU 옥좌 디테일", "cam": "slow drift on empty throne", "dir": "-", "refs": ["@GrandCathedral"], "audio": "VO: Next — the selection becomes a confession game.", "prompt_file": "03_prompts/clip09_preview.txt" }
+  ]
+}

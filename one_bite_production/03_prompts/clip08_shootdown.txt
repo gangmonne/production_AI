@@ -1,0 +1,40 @@
+SCENE CONTEXT
+The bureau chief asks the only question the military mind has: can we shoot it down? The AI's answer establishes the power gap between humanity and the guest with one bored image. The xenolinguist watches her superior take the alien's side.
+
+ACTIVE REFERENCES
+@OhGangCheol: handsome late-30s bureau chief, navy government suit. 100% matches the reference.
+@HanSeoJin: 32-year-old xenolinguist, glasses, beige cardigan. 100% matches the reference.
+@SituationRoom: government situation room at night. 100% matches the reference.
+
+LOCATION MAP
+Two fixed over-the-shoulder setups across the corner of the conference table: @OhGangCheol on the left of frame looking right, @HanSeoJin on the right of frame looking left, the glowing screen wall soft in his background. Camera trades between behind-her-shoulder and behind-his-shoulder at seated head height. Fluorescent top light, blue screen spill.
+
+FIRST FRAME / BLOCKING
+Frame opens over her shoulder onto him: @OhGangCheol sharp on the left third, leaning forward with command intensity, her cardigan shoulder soft on the right edge, vertical composition.
+
+FORMAT MODE
+Two fixed over-the-shoulder setups alternating with the dialogue — his question, then her reaction on the answer — no other angles.
+
+OPTICS
+50° portrait compression both setups, shallow depth of field, matched eyelines across the table corner.
+
+CAMERA
+Locked OTS pair. Setup A (on him) holds through his question, delivered like a war council. Setup B (over his shoulder onto her) holds through the AI's answer, all of it playing on her face.
+
+ACTION
+He leans in, laces his fingers, and asks with grave military economy. On the answer, she closes her eyes briefly; his head tilts with genuine professional interest — the wrong reaction — and she turns to stare at him.
+
+PERFORMANCE
+@OhGangCheol: command gravitas sliding into boyish fascination. @HanSeoJin: the exhausted stare of the only adult in the room. Both deadpan; nobody plays the joke. No drift in facial identity.
+
+LIGHTING
+5600K fluorescent key, blue screen rim on his suit, softer cyan fill on her from the waveform monitors.
+
+AUDIO
+His voice, clipped: "Can we shoot it down?" The serene AI voice: "The guest uses asteroids as an umbrella — when bored." Room tone, one nervous cough.
+
+STYLE
+Photoreal, near-future Korean sci-fi black comedy played straight, 35mm grain, fluorescent-and-monitor-blue palette.
+
+POSITIVE LOCKS
+Both match their references exactly in every frame. He stays on the left of frame looking right, she stays on the right looking left, in both setups. The screen stays free of any text or captions.

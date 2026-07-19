@@ -1,0 +1,40 @@
+SCENE CONTEXT
+Face to face in the forbidden corridor at night. The duke has caught his new wife at the first locked door. Instead of apologizing, she asks the one question no one in this house dares to ask.
+
+ACTIVE REFERENCES
+@Elara: early-20s woman, chestnut-auburn loose waves, green eyes, deep-emerald velvet gown with black lace collar, silver locket. 100% matches the reference.
+@DukeKael: mid-30s man, black swept-back hair, pale grey-blue eyes, faint scar through the left eyebrow, all-black brocade coat with silver fastenings, black gloves. 100% matches the reference.
+@WestCorridor: gothic stone corridor at night, iron-banded oak doors, moonlit mullioned windows, candle sconces. 100% matches the reference.
+
+LOCATION MAP
+Foreground and midground alternate between two over-the-shoulder setups an arm's length apart: @DukeKael on the left of frame looking right, @Elara on the right of frame looking left, the first locked door soft behind him. Background: moonlit corridor depth in soft focus. Camera trades between behind-her-shoulder and behind-his-shoulder at head height. Light from a sconce candle above between them and moonlight from the windows.
+
+FIRST FRAME / BLOCKING
+Frame opens over his left shoulder onto her face: @Elara sharp on the right third looking left up at him, his dark shoulder soft on the left edge, vertical composition, her face at upper third.
+
+FORMAT MODE
+Two fixed over-the-shoulder setups alternating with the dialogue — hers first, then his — no other angles, no camera movement within each setup.
+
+OPTICS
+50° portrait compression on both setups, very shallow depth of field, matching eyeline height; camera eye-level on her setup, a few degrees low on his.
+
+CAMERA
+Locked OTS pair. Setup A (over his shoulder onto her) holds through her question. Setup B (over her shoulder onto him) holds through his pause and answer, with a barely perceptible push-in during his silence.
+
+ACTION
+She keeps her chin raised through her question, not stepping back. He looks down at her without moving for a long beat, one gloved hand flexing once at his side, then answers.
+
+PERFORMANCE
+@Elara: steady, quietly defiant, pulse visible at her throat, eyes locked on his. @DukeKael: unreadable pause, then the answer delivered soft and flat, a warning worn as calm. Candle catch-lights in both sets of eyes. No drift in facial identity.
+
+LIGHTING
+Warm 3000K sconce candle key from above between them modeling both faces, cold 4300K moonlight rim separating each from the dark corridor behind.
+
+AUDIO
+Her voice, low and clear: "How did your wives die, my lord?" A held silence, cloth shifting — then his voice, quieter: "Curiosity killed them." Wind under the eaves throughout.
+
+STYLE
+Photoreal, high-end gothic romance mystery, fine film grain, deep desaturated palette, cold blue with warm candle accents.
+
+POSITIVE LOCKS
+Both match their references exactly in every frame. He stays on the left side of frame looking right, she stays on the right side of frame looking left, in both setups. The door behind him stays closed. The screen stays free of any text or captions.

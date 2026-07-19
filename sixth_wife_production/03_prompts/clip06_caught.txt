@@ -1,0 +1,40 @@
+SCENE CONTEXT
+Caught. The duchess spins from the door — and at the far end of the forbidden corridor stands the duke, a motionless silhouette against the moonlight, watching her. He begins to walk toward her.
+
+ACTIVE REFERENCES
+@Elara: early-20s woman, chestnut-auburn loose waves, green eyes, deep-emerald velvet gown with black lace collar, silver locket. 100% matches the reference.
+@DukeKael: mid-30s man, black swept-back hair, pale grey-blue eyes, faint scar through the left eyebrow, all-black brocade coat with silver fastenings, black gloves. 100% matches the reference.
+@WestCorridor: long gothic stone corridor at night, five iron-banded oak doors on the left, moonlit mullioned windows on the right, candle sconces. 100% matches the reference.
+
+LOCATION MAP
+Foreground: @Elara's shoulder and turned head on the right of frame, close to camera, softly lit by her candle. Midground: empty moonlit corridor, shafts of blue light on stone. Background: @DukeKael as a tall black silhouette on the left of frame at the corridor's far end, edged by moonlight. Camera just behind and beside her shoulder, looking down the corridor. Light from the windows on the right and her candle low in frame.
+
+FIRST FRAME / BLOCKING
+Frame opens over her shoulder: she is mid-turn on the right third, and his distant silhouette is already standing motionless on the left third at the vanishing point, vertical composition.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+35° compression, deep enough focus to keep his silhouette legible while her shoulder stays soft, tightening focus onto him as he advances.
+
+CAMERA
+Holds nearly static behind her shoulder; a slow creeping push of a few centimeters forward through the shot, letting his advance do the work. His figure grows from silhouette to a readable medium shot by the final second.
+
+ACTION
+She freezes mid-turn, candle flame shuddering once. He walks toward camera down the corridor, unhurried, bootfalls even, his face coming into candle range only in the last step, moonlight bars sliding across his black coat.
+
+PERFORMANCE
+@Elara: caught breath, shoulders rigid, eyes fixed left on him. @DukeKael: expression emerging from shadow — not anger, something colder and quieter. No drift in facial identity for either.
+
+LIGHTING
+Cold 4300K moonlight shafts as the dominant key, rim-lighting his silhouette; warm candle glow low frame right touching her jaw and shoulder.
+
+AUDIO
+Male voice, low and level, closer with each word: "You were told not to come here." Even bootfalls on stone under the line, wind pressing the windows.
+
+STYLE
+Photoreal, high-end gothic romance mystery, fine film grain, deep desaturated palette, cold blue with warm candle accents.
+
+POSITIVE LOCKS
+Both match their references exactly in every frame. He stays on the left side of frame advancing right-ward in gaze, she stays on the right side of frame looking left. All five doors stay closed. The screen stays free of any text or captions.

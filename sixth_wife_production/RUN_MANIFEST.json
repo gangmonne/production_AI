@@ -1,0 +1,44 @@
+{
+  "project": "sixth_wife_EP01",
+  "precondition": "힉스필드 MCP 커넥터를 이 대화에서 활성화할 것",
+  "known_tool_constraints": [
+    "media_upload은 샌드박스에서 실패 가능 (egress 차단) — 생성은 전부 MCP 내부 에셋 ID 체인으로",
+    "generate_image는 count: 2 패턴이 효율적",
+    "모든 잡 참조는 full UUID 사용 (축약 ID 실패)"
+  ],
+  "phase_A_assets": {
+    "tool": "generate_image",
+    "model": "nano_banana_2",
+    "jobs": [
+      { "handle": "@Elara", "count": 2, "prompt_ref": "01_asset_manifest.json#assets[0]" },
+      { "handle": "@DukeKael", "count": 2, "prompt_ref": "01_asset_manifest.json#assets[1]" },
+      { "handle": "@Marguerite", "count": 2, "prompt_ref": "01_asset_manifest.json#assets[2]" },
+      { "handle": "@FiveKeys", "count": 2, "prompt_ref": "01_asset_manifest.json#assets[3]" },
+      { "handle": "@GrandFoyer", "count": 2, "prompt_ref": "01_asset_manifest.json#assets[4]" },
+      { "handle": "@WestCorridor", "count": 2, "prompt_ref": "01_asset_manifest.json#assets[5]" }
+    ],
+    "gate": "핸들당 1장 픽 (사용자 확인) → 픽된 이미지 UUID를 phase_B의 reference로 바인딩"
+  },
+  "phase_B_clips": {
+    "tool": "generate_video",
+    "model": "seedance_2_0",
+    "params_common": { "aspect_ratio": "9:16" },
+    "jobs": [
+      { "cut": "C01", "duration": 10, "refs": ["@Elara", "@GrandFoyer"], "prompt_file": "03_prompts/clip01_arrival.txt" },
+      { "cut": "C02", "duration": 8, "refs": ["@Elara", "@DukeKael", "@GrandFoyer"], "prompt_file": "03_prompts/clip02_vows.txt" },
+      { "cut": "C03", "duration": 10, "refs": ["@Marguerite", "@Elara", "@FiveKeys"], "prompt_file": "03_prompts/clip03_keys.txt" },
+      { "cut": "C04", "duration": 15, "refs": ["@Elara", "@WestCorridor", "@FiveKeys"], "prompt_file": "03_prompts/clip04_corridor.txt" },
+      { "cut": "C05", "duration": 10, "refs": ["@Elara", "@WestCorridor"], "prompt_file": "03_prompts/clip05_listen.txt" },
+      { "cut": "C06", "duration": 12, "refs": ["@Elara", "@DukeKael", "@WestCorridor"], "prompt_file": "03_prompts/clip06_caught.txt" },
+      { "cut": "C07", "duration": 15, "refs": ["@Elara", "@DukeKael", "@WestCorridor"], "prompt_file": "03_prompts/clip07_question.txt" },
+      { "cut": "C08", "duration": 12, "refs": ["@Elara", "@DukeKael", "@WestCorridor"], "prompt_file": "03_prompts/clip08_knock.txt" },
+      { "cut": "C09", "duration": 5, "refs": ["@WestCorridor", "@FiveKeys"], "prompt_file": "03_prompts/clip09_preview.txt" }
+    ],
+    "execution": "씬(비트) 단위 순차 발주 — C01→C02→… 각 잡 완료 확인 후 다음. 실패 시 프롬프트 POSITIVE LOCKS 보강 후 1회 재시도."
+  },
+  "phase_C_post": [
+    "9클립 컨펌 편집 (타깃 120초 + 예고 5초)",
+    "한국어/영어 자막 포스트 삽입 (화면 내 텍스트 생성 금지 규칙 준수)",
+    "한국어판: VO·대사 더빙 교체"
+  ]
+}

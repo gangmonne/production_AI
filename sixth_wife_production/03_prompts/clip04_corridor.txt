@@ -1,0 +1,40 @@
+SCENE CONTEXT
+That night. The new duchess has left her rooms and entered the forbidden west wing, the five keys in her hand. She walks the length of a long stone corridor past five identical locked doors, moonlight cutting across her path.
+
+ACTIVE REFERENCES
+@Elara: early-20s woman, chestnut-auburn loose waves, green eyes, deep-emerald velvet gown with black lace collar, silver locket. 100% matches the reference.
+@WestCorridor: long gothic stone corridor at night, five iron-banded oak doors along the left wall with ornate lock plates, mullioned windows with cold moonlight on the right, sparse candle sconces. 100% matches the reference.
+@FiveKeys: five ornate antique iron keys on a heavy black iron ring. 100% matches the reference.
+
+LOCATION MAP
+Foreground: slanted shafts of blue moonlight on the stone floor crossing her path. Midground: @Elara walking, the five doors passing behind her on the left wall of frame. Background: the corridor's vanishing point in darkness at upper third. Camera tracking laterally alongside her from the window side, at chest height. Light from the moonlit windows behind camera right and guttering sconce candles between the doors.
+
+FIRST FRAME / BLOCKING
+Frame opens on a full shot: @Elara on the right third of frame beside the first door, holding a single candlestick in one hand and the key ring in the other, vertical composition.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+35° compression throughout, no drift mid-shot. Moderate depth of field so the receding doors stay legible; sconce flames render as soft warm points.
+
+CAMERA
+Tracks laterally right-to-left at her walking pace, keeping her on the right third of frame while the five doors slide past on the left, slowing to a stop with her as she reaches the second-to-last door.
+
+ACTION
+She walks slowly and quietly, bare footsteps deliberate, candle flame trembling with her pace. Her head turns to each door as it passes. At the end she stops, and her hand with the key ring lifts slightly as she faces the door.
+
+PERFORMANCE
+Controlled fear overridden by resolve; breath visible in the cold air, eyes flicking from lock to lock. No drift in facial identity.
+
+LIGHTING
+Cold 4300K moonlight key from the windows in slanted shafts, warm candle accents from the sconces and her handheld candle underlighting her face softly.
+
+AUDIO
+Female voice-over, hushed: "Five doors, five dead wives — and my keys fit every lock." Under it, slow bare footsteps on stone, wind against the windows, keys faintly chiming.
+
+STYLE
+Photoreal, high-end gothic romance mystery, fine film grain, deep desaturated palette, cold blue with warm candle accents.
+
+POSITIVE LOCKS
+Her appearance matches @Elara exactly in every frame. She stays on the right side of frame moving right-to-left, the doors stay on the left wall of frame. Exactly five doors line the corridor. The corridor stays empty of other people. The screen stays free of any text or captions.

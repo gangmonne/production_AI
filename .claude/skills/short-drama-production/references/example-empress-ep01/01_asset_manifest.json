@@ -1,0 +1,63 @@
+{
+  "project": "empress_selection",
+  "episode": "EP01",
+  "aspect_ratio_assets": "9:16",
+  "image_model": "nano_banana_2",
+  "generation_pattern": { "count": 2, "note": "generate_image count:2 — 검증된 효율 패턴. full UUID 필수." },
+  "assets": [
+    {
+      "handle": "@Lionella",
+      "type": "character",
+      "role": "여주 / 회귀 황후 → 여대공 라이오넬라 발렌티노",
+      "status": "pending",
+      "prompt": "Full-body character reference, young woman in her mid-20s, regal cold beauty, platinum ash-blonde hair swept into a high ceremonial updo, pale violet eyes, porcelain skin, standing straight facing camera, neutral expression with a faint knowing edge. She wears a floor-length white ceremonial gown of layered silk with silver embroidery at the bodice, long fitted sleeves, and a diamond tiara with a single large teardrop stone at the center of her forehead. Plain seamless light-grey studio background, even soft lighting, photorealistic, 8K detail, fabric weave and gemstone facets visible."
+    },
+    {
+      "handle": "@Cartel",
+      "type": "character",
+      "role": "전남편 / 카르텔 공작 — 부마 후보 3번",
+      "status": "pending",
+      "prompt": "Full-body character reference, man in his early 30s, tall aristocratic build, jet-black hair combed back with one loose strand, sharp jawline, grey eyes, handsome but guarded expression. He wears a midnight-navy imperial formal coat with gold braid epaulettes, high collar, white gloves, and a ducal crest pin at the chest. Standing straight facing camera, hands at his sides. Plain seamless light-grey studio background, even soft lighting, photorealistic, 8K detail."
+    },
+    {
+      "handle": "@Alexis",
+      "type": "character",
+      "role": "새 황제 알렉시스",
+      "status": "pending",
+      "prompt": "Full-body character reference, man in his late 20s, golden-brown hair to the collar, warm amber eyes, composed benevolent expression, athletic build. He wears white-and-gold imperial regalia: a long white coat with gold-thread sun emblems, a deep-red sash across the chest, and a slim gold circlet crown. Standing straight facing camera. Plain seamless light-grey studio background, even soft lighting, photorealistic, 8K detail."
+    },
+    {
+      "handle": "@Valtor",
+      "type": "character",
+      "role": "시아버지 발토르 — 부마 후보 1번",
+      "status": "pending",
+      "prompt": "Full-body character reference, man in his early 60s, silver-grey hair and a trimmed grey beard, deep-set cold eyes, heavyset imposing frame. He wears a charcoal-black formal court coat with silver fastenings and a fur-trimmed half-cape over the left shoulder. Standing straight facing camera, stern expression. Plain seamless light-grey studio background, even soft lighting, photorealistic, 8K detail."
+    },
+    {
+      "handle": "@Leo",
+      "type": "character",
+      "role": "시동생 레오 — 부마 후보 2번",
+      "status": "pending",
+      "prompt": "Full-body character reference, young man in his early 20s, soft handsome features, dark brown wavy hair, hazel eyes, slightly nervous posture. He wears a burgundy court jacket with gold buttons and a cream cravat. Standing straight facing camera. Plain seamless light-grey studio background, even soft lighting, photorealistic, 8K detail."
+    },
+    {
+      "handle": "@GrandCathedral",
+      "type": "location",
+      "role": "황실 대성당 + 옥좌 단상 (콜드오픈·간택식)",
+      "status": "pending",
+      "prompt": "Vertical architectural plate, interior of a vast imperial cathedral doubling as a throne hall. Towering white marble columns with gold capitals, a long crimson carpet running from massive open bronze doors to a raised marble dais with a gilded throne, stained-glass windows in sapphire, ruby and amber casting colored light shafts through faint incense haze, hundreds of candles in standing candelabra along the walls. Empty of people. Warm candlelight around 3200K mixed with cool colored window light, photorealistic, 8K detail, vertical 9:16 composition with the throne at upper third."
+    },
+    {
+      "handle": "@Bedchamber",
+      "type": "location",
+      "role": "황후 침실 (독살 플래시백)",
+      "status": "pending",
+      "prompt": "Vertical architectural plate, opulent imperial bedchamber at night. A canopied four-poster bed with deep-blue velvet drapes and white silk sheets, a small side table with a silver wine decanter and a single crystal glass, tall windows with heavy curtains letting in a thin blade of cold moonlight, a dying candle on the nightstand. Empty of people. Low-key lighting, mixed 4000K moonlight and warm candle glow, photorealistic, 8K detail, vertical 9:16 composition."
+    }
+  ],
+  "phase2_assets_deferred": [
+    { "handle": "@Parlor", "for": "EP02 응접실" },
+    { "handle": "@HuntCliff", "for": "EP03 사냥터 절벽" },
+    { "handle": "@GreyWolf", "for": "EP03 사냥감" }
+  ]
+}

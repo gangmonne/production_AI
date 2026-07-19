@@ -1,0 +1,39 @@
+SCENE CONTEXT
+The live-broadcast disaster completes itself: the alien message ends with a postscript asking about parking. The bureau chief, dead-eyed, orders the broadcast killed — 4.7 billion people have already seen it.
+
+ACTIVE REFERENCES
+@OhGangCheol: handsome late-30s bureau chief, navy government suit, emblem pin. 100% matches the reference.
+@SituationRoom: government situation room at night, dimmed for broadcast, blue screen glow. 100% matches the reference.
+
+LOCATION MAP
+Foreground: clean space to the table edge. Midground: @OhGangCheol on the left of frame in medium close-up, still half-frozen in his hand-over-heart pose, facing right. Background: stunned staff soft-focus at their stations, screen glow. Camera at his eye level, square on. Blue screen light from behind camera, dim fluorescents above.
+
+FIRST FRAME / BLOCKING
+Frame opens on a static medium close-up: @OhGangCheol left of frame, hand still on his chest, eyes fixed on the off-frame screen, vertical composition with his face at upper third.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+50° portrait compression, shallow depth of field, background staff dissolved to blue bokeh.
+
+CAMERA
+Locked off. No movement at all through the entire clip — dead air is the punchline's frame.
+
+ACTION
+He does not move through the AI's postscript. A long beat. His hand slides slowly off his chest and hangs at his side. Another beat. He delivers his order almost without moving his lips, then closes his eyes for one full second.
+
+PERFORMANCE
+The five stages of grief compressed into a motionless face: hope dying behind the eyes, jaw tightening, a single slow blink. Deadpan absolute. No drift in facial identity.
+
+LIGHTING
+Cool blue screen key from front, dim 5600K fluorescent top light, his navy suit nearly merging with the shadows.
+
+AUDIO
+The serene AI voice: "Postscript — 'Is there parking?'" Three full seconds of dead silence. Then his voice, flat and quiet: "Kill the broadcast." A distant phone starts ringing.
+
+STYLE
+Photoreal, near-future Korean sci-fi black comedy played straight, 35mm grain, blue-wash deadpan.
+
+POSITIVE LOCKS
+His appearance matches @OhGangCheol exactly in every frame. He stays on the left side of frame facing right. The camera never moves. The screen stays free of any text or captions.

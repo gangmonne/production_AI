@@ -1,0 +1,39 @@
+SCENE CONTEXT
+The AI briefs the room on the Galactic Entropy Management Act: low-value planets are recycled first, and the sole metric of a civilization's worth is taste. The xenolinguist listens, appalled, as the cosmic bureaucracy explains itself with perfect calm.
+
+ACTIVE REFERENCES
+@HanSeoJin: 32-year-old Korean woman, glasses, loose dark hair, beige cardigan over wrinkled shirt, lanyard. 100% matches the reference.
+@SituationRoom: government situation room at night, waveform monitors, fluorescent and blue light. 100% matches the reference.
+
+LOCATION MAP
+Foreground: the table edge with her transparent tablet lying flat. Midground: @HanSeoJin on the right of frame, face turned left toward the off-frame main screen. Background: the room soft behind her, screen glow pulsing gently with the AI's voice. Camera at her eye level, slightly left of square. Screen glow key from her left, fluorescents above.
+
+FIRST FRAME / BLOCKING
+Frame opens on a medium close-up: @HanSeoJin right of frame looking left, screen light rippling on her glasses, vertical composition with her face at upper third.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+50° portrait compression, very shallow depth of field, the room a blue haze behind her.
+
+CAMERA
+A single slow push-in toward her face for the full duration, arriving at a tight close-up as the AI's last clause lands.
+
+ACTION
+She listens without moving, the pulsing screen light on her lenses. At "art exaggerates" her eyebrows draw together; at "taste does not lie" her lips part to object — and stop. She exhales through her nose instead, defeated by the logic.
+
+PERFORMANCE
+Intellectual horror in small increments: the face of a linguist watching the universe turn out to be a review platform. Tired, sharp, silently furious. No drift in facial identity.
+
+LIGHTING
+Cool blue screen key from her left pulsing softly with the voice, 5600K fluorescent top light, warm desk accent below.
+
+AUDIO
+The serene AI voice, unhurried: "Civilizations lie, art exaggerates, mathematics copies itself — taste does not lie." Low server-room hum, one pen dropped somewhere in the silence after.
+
+STYLE
+Photoreal, near-future Korean sci-fi black comedy played straight, 35mm grain, fluorescent-and-monitor-blue palette.
+
+POSITIVE LOCKS
+Her appearance matches @HanSeoJin exactly in every frame. She stays on the right side of frame looking left. All monitor content stays abstract. The screen stays free of any text or captions.
