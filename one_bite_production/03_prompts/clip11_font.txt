@@ -1,0 +1,39 @@
+SCENE CONTEXT
+The cliffhanger. While the planet panics, the bureau chief responds the only way he knows: he opens a laptop and starts a PowerPoint strategy presentation. The alien immediately lowers Earth's rating — because of the font. Cut to black.
+
+ACTIVE REFERENCES
+@OhGangCheol: handsome late-30s bureau chief, navy government suit, presentation clicker. 100% matches the reference.
+@SituationRoom: government situation room at night, projector light, long table. 100% matches the reference.
+
+LOCATION MAP
+Foreground: the conference table with an open laptop. Midground: @OhGangCheol on the left of frame standing beside the table, facing right toward an off-frame projection wall, clicker in hand. Background: staff soft-focus, room dim, the projector beam cutting the air with dust. Camera across the table at chest height. Projector glow as key from off-frame right, dim fluorescents.
+
+FIRST FRAME / BLOCKING
+Frame opens on a medium shot: @OhGangCheol left of frame snapping the laptop open with resolve, the projector beam flaring across the frame, vertical composition with his face at upper third.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+40° compression, shallow depth of field on him, projector dust motes sparkling in the beam.
+
+CAMERA
+Locked off through the setup and the first line; on his outburst a tiny jolt-push toward him; then holds his frozen face for a full final second before the clip ends on him mid-despair.
+
+ACTION
+He opens the laptop, squares his shoulders, raises the clicker toward the off-frame wall with the bearing of a general unveiling a war plan. On the AI's first line his arm stops mid-air. On his own line he whips toward the off-frame screen. On the AI's second line he stands perfectly still, clicker drooping, eyes going hollow.
+
+PERFORMANCE
+Resolve → disbelief → hollow acceptance in three clean beats, all in the face and the slowly sinking clicker arm. Played dead straight. No drift in facial identity.
+
+LIGHTING
+White projector key from off-frame right raking his face, dim 5600K fluorescents, blue monitor spill behind.
+
+AUDIO
+The serene AI voice: "The guest lowered the rating by zero point one." His voice, cracking upward: "We haven't even started?!" The AI, perfectly calm: "We believe it was the font." Silence. A single projector fan whir.
+
+STYLE
+Photoreal, near-future Korean sci-fi black comedy played straight, 35mm grain, projector-beam chiaroscuro.
+
+POSITIVE LOCKS
+His appearance matches @OhGangCheol exactly in every frame. He stays on the left side of frame facing right. The projection wall and all screens stay off-frame or abstract — no readable slides. The screen stays free of any text or captions.

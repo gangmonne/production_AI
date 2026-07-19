@@ -1,0 +1,38 @@
+SCENE CONTEXT
+Cold open of a sci-fi black comedy: a majestic space-documentary view of a beautiful alien planet — which is then calmly deleted from existence, dissolving pixel by pixel, after failing a cosmic food review.
+
+ACTIVE REFERENCES
+@KeplerPlanet: teal-turquoise exoplanet with white cloud swirls, black starfield, raking sunlight from the left. 100% matches the reference.
+
+LOCATION MAP
+Foreground: nothing — clean black space with faint stars. Midground: the planet centered at the upper third of the vertical frame. Background: deep starfield. Camera floating in space, sun off frame left.
+
+FIRST FRAME / BLOCKING
+Frame opens on the serene planet at upper third, crescent shadow on its right limb, vertical composition, documentary stillness.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+Long-lens astronomical compression, everything tack sharp, no depth-of-field falloff — planetarium documentary look.
+
+CAMERA
+A very slow, solemn push-in toward the planet for the first two thirds; the camera then locks perfectly still for the deletion.
+
+ACTION
+The planet hangs in majestic stillness. Then, starting from its edges, it dissolves into fine square pixels that drift apart and fade — an unhurried, administrative erasure, clouds and oceans breaking into blocks — until only empty starfield remains.
+
+PERFORMANCE
+No characters. The performance is the contrast: grandeur played completely straight, deletion played like emptying a recycle bin.
+
+LIGHTING
+Raking sunlight from the left on the planet, pure black space behind, no lens flares.
+
+AUDIO
+Vast solemn orchestral swell — then a colossal, godlike bass voice, deadpan: "The noodles went soggy." The music stops; the deletion plays over a single mundane soft digital chime.
+
+STYLE
+Photoreal space documentary, 35mm film grain, muted majestic palette, near-future Korean sci-fi black comedy played straight.
+
+POSITIVE LOCKS
+The planet matches @KeplerPlanet exactly until the dissolve begins. The dissolve reads as clean squares, calm and orderly. The screen stays free of any text, numbers, star ratings, or interface elements.

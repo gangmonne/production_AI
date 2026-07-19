@@ -1,0 +1,39 @@
+SCENE CONTEXT
+The inspection begins. Above Seoul, the vast black sphere that has hung motionless for 43 days finally moves: a horizontal fissure splits open across its face like a colossal mouth, glowing from within, and a voice the whole planet can hear declares the seven-day judgment of Earth.
+
+ACTIVE REFERENCES
+@SeoulSky: night skyline of Seoul from street level, dense lit high-rises, colossal matte-black sphere dominating the upper sky. 100% matches the reference.
+@Inspector: vast dark monolithic sphere with a single horizontal lip-shaped fissure lined with hundreds of tiny glowing red camera lenses. 100% matches the reference for the opened state.
+
+LOCATION MAP
+Foreground: an empty night street between high-rises, sodium lamps, parked cars. Midground: the building canyon framing the sky. Background/upper frame: the black sphere filling the upper third. Camera at street level shooting steeply upward. Sodium warmth below, deep blue night above.
+
+FIRST FRAME / BLOCKING
+Frame opens low on the empty street, buildings converging upward, the sealed black sphere at the very top of frame, vertical composition built for a tilt-up.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+28° wide compression with strong vertical convergence, deep focus — the whole canyon and sphere sharp.
+
+CAMERA
+Tilts up slowly from the street to frame the sphere fully in the upper two thirds, then locks. The fissure event plays in the locked frame.
+
+ACTION
+The sphere hangs sealed for a breath. Then a hairline seam of golden light draws itself horizontally across its face and yawns open into a vast lip-shaped fissure — no teeth, no tongue — its interior lined with hundreds of tiny red lenses that ignite in ripples, all focusing downward. Thin clouds around it recoil outward in a slow ring.
+
+PERFORMANCE
+No human characters. The sphere performs: unhurried, administrative, absolutely indifferent — a cosmic official opening a case file.
+
+LIGHTING
+Sodium street warmth at the bottom of frame, deep blue night sky, and the golden fissure glow becoming the dominant key as it opens, red lens points pricking through.
+
+AUDIO
+A vast, calm voice from everywhere at once: "The inspection of Earth begins — seven days." Under it, city-wide car alarms starting in waves, distant screams, wind.
+
+STYLE
+Photoreal, cosmic sci-fi horror-comedy played straight, 35mm grain, sodium-and-gold against night blue.
+
+POSITIVE LOCKS
+The sphere matches @SeoulSky sealed and transitions to match @Inspector opened, staying in the upper frame throughout. The street stays empty of visible people. The screen stays free of any text, numbers, star ratings, or interface elements.

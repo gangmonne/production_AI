@@ -1,0 +1,39 @@
+SCENE CONTEXT
+Live to 4.7 billion viewers, the AI reads humanity's first translated alien sentence. The room stands in reverent tableau, hands over hearts, tears in eyes — and the message turns out to be a food-delivery request. Everyone freezes mid-reverence.
+
+ACTIVE REFERENCES
+@SituationRoom: government situation room at night, main screen wall, long table, fluorescent and blue light. 100% matches the reference.
+@OhGangCheol: handsome late-30s bureau chief in navy government suit. 100% matches the reference.
+
+LOCATION MAP
+Foreground: the table with laptops. Midground: the standing room in solemn rows, @OhGangCheol at the head on the left of frame, all faces turned up-left toward the main screen. Background: the main screen glowing with a slowly pulsing abstract waveform. Camera at the back of the room, elevated slightly. Fluorescents dimmed for the broadcast, screen glow dominant.
+
+FIRST FRAME / BLOCKING
+Frame opens on a locked symmetrical wide of the standing tableau, main screen at upper third, @OhGangCheol left-of-center with hand over heart, vertical composition.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+30° compression, deep enough focus to hold the whole tableau; ceremonial symmetry.
+
+CAMERA
+Locked off completely. The camera does not move at all — the joke is the tableau curdling inside a formal frame.
+
+ACTION
+The room holds a reverent stillness through the first sentence — several people close their eyes, one wipes a tear. On the second sentence, the reverence curdles: hands stay frozen over hearts, eyes begin flicking sideways at each other, one head tilts a few degrees. Nobody dares move.
+
+PERFORMANCE
+Collective emotional whiplash performed in micro-movements only: throats swallowing, eyes darting, a jaw slowly falling open. @OhGangCheol holds his statesman pose while his certainty visibly drains. No drift in facial identity.
+
+LIGHTING
+Dimmed fluorescents, dominant cool blue screen glow washing the upturned faces, thin warm table accents.
+
+AUDIO
+A serene genderless AI voice, perfectly calm: "It has been a long journey. I want something warm and crispy." A grand orchestral swell that falters and dies awkwardly mid-phrase after the second sentence.
+
+STYLE
+Photoreal, near-future Korean sci-fi black comedy played straight, 35mm grain, ceremonial symmetry.
+
+POSITIVE LOCKS
+The room matches @SituationRoom exactly; @OhGangCheol matches his reference. The main screen shows only an abstract pulsing waveform. Nobody fully breaks the tableau. The screen stays free of any text or captions.

@@ -1,0 +1,40 @@
+SCENE CONTEXT
+The AI mentions, in passing, that the guest drank a supernova in his espresso yesterday. The bureau chief — who was just asking about nuclear options — slowly sits down and concedes that this is, honestly, kind of cool. The xenolinguist's patience dies.
+
+ACTIVE REFERENCES
+@OhGangCheol: handsome late-30s bureau chief, navy government suit. 100% matches the reference.
+@HanSeoJin: 32-year-old xenolinguist, glasses, beige cardigan. 100% matches the reference.
+@SituationRoom: government situation room at night. 100% matches the reference.
+
+LOCATION MAP
+Foreground: the corner of the conference table. Midground: @OhGangCheol on the left of frame standing beside his chair, @HanSeoJin seated on the right of frame. Background: screen wall glow, staff soft-focus. Camera across the table at chest height, holding both. Fluorescent top light, blue screen spill from the left.
+
+FIRST FRAME / BLOCKING
+Frame opens on a two-shot: him standing left of frame mid-thought, her seated right of frame watching him with dread, vertical composition.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+40° compression, shallow depth of field holding both faces, background dissolved to blue.
+
+CAMERA
+Holds the two-shot as he sinks into his chair in slow motion of thought; on her explosion the camera makes a small sharp push toward her.
+
+ACTION
+On the AI's line, he pauses, gazes into the middle distance, and lowers himself into his chair with the gravity of a man re-evaluating the universe, nodding faintly with respect. She watches this happen, tablet gripped whitening, then snaps toward him.
+
+PERFORMANCE
+@OhGangCheol: sincere, unguarded admiration — the schoolboy under the statesman. @HanSeoJin: disbelief boiling into her one shouted syllable, glasses flashing as she turns. No drift in facial identity.
+
+LIGHTING
+5600K fluorescent key, cool blue screen spill from the left, warm table accent between them.
+
+AUDIO
+The serene AI voice: "Yesterday the guest took a supernova in his espresso." A beat. His voice, hushed with awe as he sits: "...That's actually kind of cool." Her voice, sharp: "Director!"
+
+STYLE
+Photoreal, near-future Korean sci-fi black comedy played straight, 35mm grain, fluorescent-and-monitor-blue palette.
+
+POSITIVE LOCKS
+Both match their references exactly in every frame. He stays on the left side of frame, she stays on the right. The screen stays free of any text or captions.

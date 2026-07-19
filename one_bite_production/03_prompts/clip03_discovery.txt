@@ -1,0 +1,39 @@
+SCENE CONTEXT
+In the corner of the situation room, a young exhausted xenolinguist has been glaring at the waveform for hours. She suddenly stands and tells the world's assembled experts that the alien signal is not grammar at all — it is an arrangement of flavors. The room goes silent.
+
+ACTIVE REFERENCES
+@HanSeoJin: 32-year-old Korean woman, dark hair loosely tied back with loose strands, thin-framed glasses, wrinkled light shirt under an oversized beige cardigan, government ID lanyard, transparent tablet. 100% matches the reference.
+@SituationRoom: government situation room at night, waveform monitors, fluorescent and blue light. 100% matches the reference.
+
+LOCATION MAP
+Foreground: her cluttered corner desk — tablet, cold coffee, tangled cables. Midground: @HanSeoJin on the right of frame. Background: the room and screen wall falling away soft to the left. Camera at desk height in front of her. Fluorescent overhead, waveform monitor glow from her left.
+
+FIRST FRAME / BLOCKING
+Frame opens on a medium shot of her seated at the corner desk on the right third, hunched toward an off-frame monitor, vertical composition.
+
+FORMAT MODE
+One continuous shot, the camera does not cut on its own.
+
+OPTICS
+40° compression, shallow depth of field, the room dissolving to soft bokeh behind her.
+
+CAMERA
+Holds as she stands abruptly into a medium close-up, then pushes in slightly during her line, ending on her face at upper third.
+
+ACTION
+She stares, mouths a silent calculation, then shoves her chair back and stands in one abrupt motion, tablet clutched to her chest, and delivers the line to the room on her left. After the line, she holds still in the ringing silence, eyes darting once.
+
+PERFORMANCE
+Exhausted certainty — not triumph. Glasses catching monitor glow, jaw set, the faint terror of being right about something ridiculous. No drift in facial identity.
+
+LIGHTING
+5600K fluorescent key from above, cyan waveform glow from her left as fill, blue room spill behind.
+
+AUDIO
+Her voice, quick and sure over a murmuring room that cuts to dead silence: "This isn't grammar — it's an arrangement of flavors." A chair squeak, then nothing.
+
+STYLE
+Photoreal, near-future Korean sci-fi black comedy played straight, 35mm grain, fluorescent-and-monitor-blue palette.
+
+POSITIVE LOCKS
+Her appearance matches @HanSeoJin exactly in every frame. She stays on the right side of frame, facing left toward the room. All monitor content stays abstract. The screen stays free of any text or captions.

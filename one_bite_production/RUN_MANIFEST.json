@@ -1,0 +1,49 @@
+{
+  "project": "one_bite_of_earth_EP01",
+  "precondition": "힉스필드 MCP 커넥터를 이 대화에서 활성화할 것",
+  "known_tool_constraints": [
+    "media_upload은 샌드박스에서 실패 가능 (egress 차단) — 생성은 전부 MCP 내부 에셋 ID 체인으로",
+    "generate_image는 count: 2 패턴이 효율적",
+    "모든 잡 참조는 full UUID 사용 (축약 ID 실패)"
+  ],
+  "phase_A_assets": {
+    "tool": "generate_image",
+    "model": "soul",
+    "note": "캐릭터 2종은 북 규격(SOUL CINEMATIC·2:3·FLAT GRAY) 원문 프롬프트. 픽 후 옵션: 북 권장대로 Soul 캐릭터 학습 — 인물당 베스트컷을 medias 레퍼런스로 각도 변형(three-quarter left profile / close-up head and shoulders / full body wide shot) 2–3장 추가 생성.",
+    "jobs": [
+      { "handle": "@HanSeoJin", "count": 2, "aspect": "2:3", "prompt_ref": "01_asset_manifest.json#assets[0]" },
+      { "handle": "@OhGangCheol", "count": 2, "aspect": "2:3", "prompt_ref": "01_asset_manifest.json#assets[1]" },
+      { "handle": "@Inspector", "count": 2, "aspect": "2:3", "prompt_ref": "01_asset_manifest.json#assets[2]" },
+      { "handle": "@SituationRoom", "count": 2, "aspect": "9:16", "prompt_ref": "01_asset_manifest.json#assets[3]" },
+      { "handle": "@SeoulSky", "count": 2, "aspect": "9:16", "prompt_ref": "01_asset_manifest.json#assets[4]" },
+      { "handle": "@KeplerPlanet", "count": 2, "aspect": "9:16", "prompt_ref": "01_asset_manifest.json#assets[5]" }
+    ],
+    "gate": "핸들당 1장 픽 (사용자 확인) → 픽된 이미지 UUID를 phase_B의 reference로 바인딩"
+  },
+  "phase_B_clips": {
+    "tool": "generate_video",
+    "model": "seedance_2_0",
+    "params_common": { "aspect_ratio": "9:16" },
+    "jobs": [
+      { "cut": "C01", "duration": 12, "refs": ["@KeplerPlanet"], "prompt_file": "03_prompts/clip01_kepler.txt" },
+      { "cut": "C02", "duration": 12, "refs": ["@SituationRoom"], "prompt_file": "03_prompts/clip02_scholars.txt" },
+      { "cut": "C03", "duration": 11, "refs": ["@HanSeoJin", "@SituationRoom"], "prompt_file": "03_prompts/clip03_discovery.txt" },
+      { "cut": "C04", "duration": 12, "refs": ["@OhGangCheol", "@SituationRoom"], "prompt_file": "03_prompts/clip04_broadcast.txt" },
+      { "cut": "C05", "duration": 12, "refs": ["@SituationRoom", "@OhGangCheol"], "prompt_file": "03_prompts/clip05_translation.txt" },
+      { "cut": "C06", "duration": 11, "refs": ["@OhGangCheol", "@SituationRoom"], "prompt_file": "03_prompts/clip06_parking.txt" },
+      { "cut": "C07", "duration": 13, "refs": ["@HanSeoJin", "@SituationRoom"], "prompt_file": "03_prompts/clip07_briefing.txt" },
+      { "cut": "C08", "duration": 13, "refs": ["@OhGangCheol", "@HanSeoJin", "@SituationRoom"], "prompt_file": "03_prompts/clip08_shootdown.txt" },
+      { "cut": "C09", "duration": 12, "refs": ["@OhGangCheol", "@HanSeoJin", "@SituationRoom"], "prompt_file": "03_prompts/clip09_espresso.txt" },
+      { "cut": "C10", "duration": 13, "refs": ["@SeoulSky", "@Inspector"], "prompt_file": "03_prompts/clip10_fissure.txt" },
+      { "cut": "C11", "duration": 12, "refs": ["@OhGangCheol", "@SituationRoom"], "prompt_file": "03_prompts/clip11_font.txt" }
+    ],
+    "execution": "씬(비트) 단위 순차 발주 — C01→C02→… 각 잡 완료 확인 후 다음. 실패 시 프롬프트 POSITIVE LOCKS 보강 후 1회 재시도."
+  },
+  "phase_C_post": [
+    "11클립 컨펌 편집 (타깃 140초, 북 숏폼 리듬 템플릿 기준 페이싱)",
+    "별점 UI 그래픽 합성: C01 ★1.9 홀로그램 / C10 ★1.8 / C11 엔딩 D-7·★1.7 카운트 (화면 내 텍스트 생성 금지 규칙 — 전부 포스트)",
+    "다큐 자막체 자막 삽입 (케플러 소개·리뷰 문구 등 대본 지정 자막)",
+    "미소(AI)·감독관 보이스 캐스팅 및 더빙 (북 파이프라인 ⑤) — 한국어 원대사 복원, 생성 클립의 영어 대사는 립싱크 가이드",
+    "효과음: 행성 삭제 = 휴지통 비우기, 감독관 등장 = 도시 카알람 웨이브"
+  ]
+}

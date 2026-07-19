@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "scene_id": "OBOE_EP01",
+    "title": "별점 테러 / Review Bombing",
+    "runtime_target_sec": 140,
+    "aspect_ratio": "9:16",
+    "video_model": "seedance_2_0",
+    "note": "duration·aspect는 프롬프트 본문이 아니라 힉스필드 생성 파라미터로 설정. 별점 UI·자막·D-카운트는 전부 포스트 그래픽 — 생성 클립에는 어떤 텍스트도 넣지 않는다."
+  },
+  "look": {
+    "palette": "institutional fluorescent + monitor blue vs cosmic black sphere with golden fissure; Kepler = space documentary",
+    "wb": { "situation_room": "5600K fluorescent + blue screen spill", "seoul_sky": "sodium street warmth below, deep blue night above, golden fissure glow", "kepler": "raking sunlight, astronomy documentary" },
+    "grammar": "comedy played straight — documentary-solemn camera (symmetry, slow push-ins) that never winks; Inspector/sphere = always upper frame, tilt-up; dialogue CUs shallow DOF; 35mm grain; no on-screen text"
+  },
+  "screen_direction_lock": {
+    "HanSeoJin": "frame RIGHT, looks LEFT",
+    "OhGangCheol_Scholars": "frame LEFT, look RIGHT",
+    "Inspector_Sphere": "always UPPER frame (tilt-up grammar)",
+    "rule": "EP01 전체 불변. 미소(AI)는 보이스 온리 + 포스트 UI."
+  },
+  "asset_map": {
+    "@HanSeoJin": "한서진 (외계언어학자)",
+    "@OhGangCheol": "오강철 (본부장)",
+    "@Inspector": "감독관 구체 (스타일 앵커)",
+    "@SituationRoom": "외계문명대응본부 상황실",
+    "@SeoulSky": "서울 상공 + 검은 구체",
+    "@KeplerPlanet": "케플러-442b"
+  },
+  "shotlist": [
+    { "cut": "C01", "beat": "콜드 오픈 — 케플러 삭제", "dur_sec": 12, "size": "WS space → planet dissolve", "cam": "solemn documentary slow push-in, then static hold for deletion", "dir": "planet upper third", "refs": ["@KeplerPlanet"], "audio": "Inspector V.O., deepest cosmic bass: The noodles went soggy.", "prompt_file": "03_prompts/clip01_kepler.txt" },
+    { "cut": "C02", "beat": "장엄 모드 — 존엄 논쟁", "dur_sec": 12, "size": "WS room → MS screen wall", "cam": "slow lateral drift along the table toward the video-call wall", "dir": "scholars on screens frame-left", "refs": ["@SituationRoom"], "audio": "Scholar on screen, gravely: The signal means time itself is circular. / Second scholar: Agreed — and its center is Beijing.", "prompt_file": "03_prompts/clip02_scholars.txt" },
+    { "cut": "C03", "beat": "한서진의 발견", "dur_sec": 11, "size": "MS rise → MCU", "cam": "she stands into frame; push-in as the room turns to her", "dir": "SeoJin frame-right looks left", "refs": ["@HanSeoJin", "@SituationRoom"], "audio": "SeoJin: This isn't grammar — it's an arrangement of flavors.", "prompt_file": "03_prompts/clip03_discovery.txt" },
+    { "cut": "C04", "beat": "생중계 개시", "dur_sec": 12, "size": "MS GangCheol → WS room rising", "cam": "push-in on GangCheol, then widen as everyone stands", "dir": "GangCheol frame-left looks right", "refs": ["@OhGangCheol", "@SituationRoom"], "audio": "GangCheol, standing: Connect the worldwide broadcast — this moment goes in the textbooks.", "prompt_file": "03_prompts/clip04_broadcast.txt" },
+    { "cut": "C05", "beat": "번역 참사 1", "dur_sec": 12, "size": "WS solemn tableau → freeze", "cam": "locked symmetrical wide, nobody moves", "dir": "room faces main screen upper-left", "refs": ["@SituationRoom", "@OhGangCheol"], "audio": "Miso, serene AI voice: 'It has been a long journey. I want something warm and crispy.'", "prompt_file": "03_prompts/clip05_translation.txt" },
+    { "cut": "C06", "beat": "번역 참사 2 — 주차", "dur_sec": 11, "size": "MCU GangCheol / cutaway faces", "cam": "static MCU, dead-air holds between lines", "dir": "GangCheol frame-left", "refs": ["@OhGangCheol", "@SituationRoom"], "audio": "Miso: Postscript — 'Is there parking?' / GangCheol, flat: Kill the broadcast.", "prompt_file": "03_prompts/clip06_parking.txt" },
+    { "cut": "C07", "beat": "엔트로피 관리법 브리핑", "dur_sec": 13, "size": "MCU SeoJin ↔ screen", "cam": "slow push on SeoJin listening, screen glow on her glasses", "dir": "SeoJin frame-right looks left", "refs": ["@HanSeoJin", "@SituationRoom"], "audio": "Miso: Civilizations lie, art exaggerates, mathematics copies itself — taste does not lie.", "prompt_file": "03_prompts/clip07_briefing.txt" },
+    { "cut": "C08", "beat": "격추 문답", "dur_sec": 13, "size": "MCU OTS 왕복", "cam": "locked OTS pair GangCheol/SeoJin, deadpan rhythm", "dir": "lock 유지", "refs": ["@OhGangCheol", "@HanSeoJin", "@SituationRoom"], "audio": "GangCheol: Can we shoot it down? / Miso: The guest uses asteroids as an umbrella — when bored.", "prompt_file": "03_prompts/clip08_shootdown.txt" },
+    { "cut": "C09", "beat": "초신성 에스프레소", "dur_sec": 12, "size": "MCU GangCheol sit → CU SeoJin", "cam": "he slowly sits; whip to her exasperation", "dir": "lock 유지", "refs": ["@OhGangCheol", "@HanSeoJin", "@SituationRoom"], "audio": "Miso: Yesterday the guest took a supernova in his espresso. / GangCheol, sitting down slowly: ...That's actually kind of cool.", "prompt_file": "03_prompts/clip09_espresso.txt" },
+    { "cut": "C10", "beat": "심사 개시 — 구체 균열", "dur_sec": 13, "size": "WS street tilt-up → sphere cracks", "cam": "tilt-up from crowd-less street to the sphere splitting into a mouth fissure", "dir": "sphere upper frame", "refs": ["@SeoulSky", "@Inspector"], "audio": "Inspector, vast and calm: The inspection of Earth begins — seven days.", "prompt_file": "03_prompts/clip10_fissure.txt" },
+    { "cut": "C11", "beat": "클리프행어 — PPT 0.1 하락", "dur_sec": 12, "size": "MS GangCheol at projector → CUT TO BLACK", "cam": "static as he opens the laptop, beat, hold for post D-count", "dir": "GangCheol frame-left", "refs": ["@OhGangCheol", "@SituationRoom"], "audio": "Miso: The guest lowered the rating by zero point one. — GangCheol: We haven't even started?! — Miso: We believe it was the font.", "prompt_file": "03_prompts/clip11_font.txt" }
+  ]
+}
